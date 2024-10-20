@@ -1,13 +1,15 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: Kaboom
 
-## Project: **X**
+## Project: Game Editor DX
 
 ---
 
-### X/X/XX:
-* Text
+### 10/17/24:
+* Hello My name is Christian Ramos and I am here to talk about my learning log and about my tool.
+* I used Kaboom for my Game editor DX. In some cases I tried 
+  
 
 ### X/X/XX:
 * Text
