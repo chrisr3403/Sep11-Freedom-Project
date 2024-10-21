@@ -8,7 +8,7 @@
 
 ### 10/17/24:
 * Hello My name is Christian Ramos and I am here to talk about my learning log and about my tool.
-* I used Kaboom for my Game editor DX. In some cases I tried to use the code from (Kaboom)[https://kaboomjs.com/]
+* I used Kaboom for my Game editor DX. In some cases I tried to use the code from [Kaboom](https://kaboomjs.com/)
   
 
 ### X/X/XX:
