@@ -12,6 +12,8 @@ One of the many codes I know is animations for a sprite ```const bean = add([
         anim: "idle",
     }),
 ])``` this code is used for things such as idle animations in fact I am best known for doing idle animations for other coding programs.
+Learning how to make animations is easy throughout the years of my experence and Kaboom extended that experence for my own platformer
+to create games.
 
 
 
