@@ -34,11 +34,14 @@ My next part will be on making the character be able to color change to whatever
 ### 11/11/2024
 * Hello My name is christian ramos making a report on my third learning log.
 During my time using [Kaboom](https://kaboomjs.com/) I found codes that may lead to my cosmetic platformer project of 2025 and personal project for 2026
-I have inspected this code ```// blue frog
-add([
-    sprite("bean"),
-    color(0, 0, 255)
-])```  This code makes the color of a AI/Sprite/Player Skin
+I have inspected this code ```// blue frogadd([ sprite("bean"),color(0, 0, 255)])```  This code makes the color of a AI/Sprite/Player Skin be customizable to any color you want.
+Just Follow the code padlette to chose any color you want to see what suits your best interest in this game that will be made.
+Now lets start with the challenges of this, my challenge to know how to use the color was very interesting I looked at the code for the ```color(0, 0, 255)```
+and at first it looked like location numbers which I tried looking further to see if there was other methods actually I tried it out at first the code did not even
+respond or work so I assumed it was until it was put in the wrong area. My progress on it seems very good as now I know how to make color on ai and player skins.
+My questions I have is what will color bring to the games, what is the hot take on this custimizable platformer.
+Well to answer that question sometime in the future I will try how to swap skins using a sprite skin swap.
+
 
 
 <!-- 
