@@ -31,6 +31,15 @@ I had difficulty trying to find this code and making it work when I realized I m
 The question: How does code like this to make a character jump or play a animation. What makes the code function?
 My next part will be on making the character be able to color change to whatever you want.
 
+### 11/11/2024
+* Hello My name is christian ramos making a report on my third learning log.
+During my time using [Kaboom](https://kaboomjs.com/) I found codes that may lead to my cosmetic platformer project of 2025 and personal project for 2026
+I have inspected this code ```// blue frog
+add([
+    sprite("bean"),
+    color(0, 0, 255)
+])```  This code makes the color of a AI/Sprite/Player Skin
+
 
 <!-- 
 * Links you used today (websites, videos, etc)
