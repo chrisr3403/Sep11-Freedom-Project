@@ -20,7 +20,7 @@ The thing I require is the location finder methods that is needed to look for a 
 So I looked through Kaboom and found the code add`([sprite("ghosty"),pos(x, y),])`.
 So this code gave me a start on moving ai on certain POI (Points Of Interest) whenever starting the game or running it the Ai or sprite will spawn at different locations 
 which helped me solve the issue. What I tinkered with this `([sprite("optimus"),pos(x 100, y 100),])` so far I am still testing it but It needs to be assign to a spefic location number 
-for the ai to spawn.
+for the ai to spawn. You can tinker it in the example Kaboom [Kaboom Example](https://kaboomjs.com/play?example=add)
 
 
 
