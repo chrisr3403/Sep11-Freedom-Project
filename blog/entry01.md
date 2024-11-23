@@ -15,6 +15,8 @@ Learning how to make animations is easy throughout the years of my experience an
 to create games. In time I have developed skills to know how to use my tool, skills such as knowing how to make more AI/sprites and make them also customizable.
 The skill was very good to learn because then I can use the skills I know when it comes to making more AI I can make levels in games to be harder each time you increase a level.
 It is really fascinating to learn Kaboom it is a useful tool even for my own personal projects. 
+Another Skill I have learned is knowing how to make animations and this skill was something I have been wanted to learn and have because in the future AI or the player character needs 
+to have animations like a battle animation or a run animation. Learning how to do animations is really important in future gaming purposes.
 I would suggest it to any who want to create their own cosmetic or regular based platformer to have a real good experience on how to make games. 
 My engineering design process, since I started learning how to do animations due to creating AI and player cosmetics I realized I need to make the AI move at points of interest.
 So I looked through Kaboom and found the code add`([sprite("ghosty"),pos(x, y),])` this research lead me to find the position of the sprite 
