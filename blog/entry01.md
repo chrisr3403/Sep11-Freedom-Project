@@ -8,6 +8,8 @@ I am using this tool [Kaboom](https://kaboomjs.com/#sprite),is a game devolping 
  customizable. My learning of it has grown so much about it I do many tests like making ai to go to a certain position on the game code using kaboom.
 One of the many codes I know is animations for a sprite ```const bean = add([ sprite("bean", {// start with animation "idle" anim: "idle", }),])``` 
 This code is used for things such as idle animations in fact I am best known for doing idle animations for other coding programs.
+So what I tinkered with this code so far: ```const bean = add([ sprite("bean", {// start with animation "run" anim: "run", }),])``` 
+this code instead of it taking the idle it's doing the running animation, when running its triggered when the player or Ai wants to do that animation.
 Learning how to make animations is easy throughout the years of my experence and Kaboom extended that experence for my own platformer
 to create games. In time I have devolped skills to know how to use my tool, skills such as knowing how to make more ai/sprites and make them also customizable.
 The skill was very good to learn because then I can use the skills I know when it comes to making more ai I can make levels in games to be harder each time you increase a level.
@@ -17,7 +19,8 @@ My engineering design process is trying to make a Ai go one place to another the
 The thing I require is the location finder methods that is needed to look for a good location for like spawning or moving. 
 So I looked through Kaboom and found the code add`([sprite("ghosty"),pos(x, y),])`.
 So this code gave me a start on moving ai on certain POI (Points Of Interest) whenever starting the game or running it the Ai or sprite will spawn at different locations 
-which helped me solve the issue.
+which helped me solve the issue. What I tinkered with this `([sprite("optimus"),pos(x 100, y 100),])` so far I am still testing it but It needs to be assign to a spefic location number 
+for the ai to spawn.
 
 
 
