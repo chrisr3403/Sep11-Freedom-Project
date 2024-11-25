@@ -42,8 +42,8 @@ respond or work so I assumed it was until it was put in the wrong area. My progr
 My questions I have is what will color bring to the games, what is the hot take on this custimizable platformer.
 Well to answer that question sometime in the future I will try how to swap skins using a sprite skin swap. 
 
-
-
+### 11/24/2024
+* Hello and 
 
 <!-- 
 * Links you used today (websites, videos, etc)
