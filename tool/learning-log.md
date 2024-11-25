@@ -45,7 +45,7 @@ Well to answer that question sometime in the future I will try how to swap skins
 ### 11/24/2024
 * Hello and welcome to my learning log entry four! My name is christian ramos and I am to talk about my skin swapping lesson!
   Using [Kaboom](https://kaboomjs.com/) I have been learning how to do skin swapping within a character or AI for quite sometime.
-  I used this video to help me learn on how to make skins/png sprites [Learn to Make a Game with Kaboom.js in 39 Minutes] (https://www.youtube.com/watch?time_continue=402&v=hgReGsh5xVU&embeds_referring_euri=https%3A%2F%2Fvideo.search.yahoo.com%2F&embeds_referring_origin=https%3A%2F%2Fvideo.search.yahoo.com&source_ve_path=MTM5MTE3LDEzOTExNywyODY2Ng)
+  I used this video to help me learn on how to make skins/png sprites [Learn to Make a Game with Kaboom.js in 39 Minutes](https://www.youtube.com/watch?time_continue=402&v=hgReGsh5xVU&embeds_referring_euri=https%3A%2F%2Fvideo.search.yahoo.com%2F&embeds_referring_origin=https%3A%2F%2Fvideo.search.yahoo.com&source_ve_path=MTM5MTE3LDEzOTExNywyODY2Ng)
 
 <!-- 
 * Links you used today (websites, videos, etc)
