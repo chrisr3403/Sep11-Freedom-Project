@@ -15,7 +15,7 @@
  At first I had a challenge when it came to kahoots code. I thought "oh its just a game start up." well here is where it got tricky.
  See I needed more code when it came to my start game or things to make it give a idea on how to do it better. The code did not work at first
  then I looked into Kahoot gave me a code to play as a character and fixed it. The code gave me a sprite like this for example "// load a default sprite
-loadBean()" I want to try how to make a character move next.
+ loadBean()" I want to try how to make a character move next.
 
   
 
@@ -44,12 +44,14 @@ Well to answer that question sometime in the future I will try how to swap skins
 
 ### 11/24/2024
 * Hello and welcome to my learning log entry four! My name is christian ramos and I am to talk about my skin swapping lesson!
-  Using [Kaboom](https://kaboomjs.com/) I have been learning how to do skin swapping within a character or AI for quite sometime.
-  I used this video to help me learn on how to make skins/png sprites [Learn to Make a Game with Kaboom.js in 39 Minutes](https://www.youtube.com/watch?v=hgReGsh5xVU&t=402s) with this I
-  learned how make a sprite have a different skin or png to whatever I want. What code I tinkered was with ```loadSprite("optimus",
-  "optimus.png") ``` this will basically make the character or AI have the sprite loaded as "optimus" you can change it to whatever you prefer on what project you are making.
-A a-ha moments I have for myself is trying to get the png loading in I had the code but A BIG thing that I was missing is the png directory. I thought I had put it in but I had to
-make it 
+Using [Kaboom](https://kaboomjs.com/) I have been learning how to do skin swapping within a character or AI for quite sometime.
+So I tried to give one of my sprite a optimus prime character and the progress of it is very very A BIG very easy progress and works perfectly.
+I used this video to help me learn on how to make skins/png sprites [Learn to Make a Game with Kaboom.js in 39 Minutes](https://www.youtube.com/watch?v=hgReGsh5xVU&t=402s) with this I
+learned how make a sprite have a different skin or png to whatever I want. What code I tinkered was with ```loadSprite("optimus",
+"optimus.png") ``` this will basically make the character or AI have the sprite loaded as "optimus" you can change it to whatever you prefer on what project you are making.
+A a-ha moments I have for myself is trying to get the png loading in I had the code but A BIG thing that I was missing is the png directory.
+I thought I had put it in but I had to make it as a directory similar to github when putting a png.
+The questions I still have is: How will the png move in terms of animation or will it be static pose? Something I will find out in the next one when I try Animations!
 
 <!-- 
 * Links you used today (websites, videos, etc)
