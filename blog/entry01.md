@@ -1,14 +1,19 @@
 # Entry 1
 ##### 11/3/24
 
-## Section 1 Content: 
-Hello and Welcome! My name is Christian Ramos part of the SEP11 course coding class at HSTAT. 
-I am here to share my blog and content about my learning so far about the tool that I use. 
+## What I learned So Far: 
+Hello My name is Christian Ramos and I am here to talk about what I learned so far for using my tool during this month. 
 I am using this tool [Kaboom](https://kaboomjs.com) is a game developing tool for like platformer type games. With this tool you can make games that can be pixelated or 
 customizable. My learning of it has grown so much about it I do many tests like making AI to go to a certain position on the game code using kaboom.
-One of the many codes I know is animations for a sprite ```const bean = add([ sprite("bean", {// start with animation "idle" anim: "idle", }),])``` 
+One of the many codes I know is animations for a sprite 
+```js
+const bean = add([ sprite("bean", {// start with animation "idle" anim: "idle", }),])
+```
 This code is used for things such as idle animations in fact I am best known for doing idle animations for other coding programs.
-So what I tinkered with this code so far: ```const bean = add([ sprite("bean", {// start with animation "run" anim: "run", }),])``` 
+So what I tinkered with this code so far: 
+```js
+const bean = add([ sprite("bean", {// start with animation "run" anim: "run", }),])
+``` 
 this code instead of it taking the idle it's doing the running animation, when running its triggered when the player or AI wants to do that animation.
 
 
