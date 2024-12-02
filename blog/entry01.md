@@ -5,11 +5,16 @@
 Hello My name is Christian Ramos and I am here to talk about what I learned so far for using my tool during this month. 
 I am using this tool [Kaboom](https://kaboomjs.com) is a game developing tool for like platformer type games. With this tool you can make games that can be pixelated or 
 customizable. My learning of it has grown so much about it I do many tests like making AI to go to a certain position on the game code using kaboom.
-One of the many codes I know is animations for a sprite 
+One of the many codes I know is animations for a sprite or a AI
 ```js
 const bean = add([ sprite("bean", {// start with animation "idle" anim: "idle", }),])
 ```
-This code is used for things such as idle animations in fact I am best known for doing idle animations for other coding programs.
+This code is used for things such as idle animations in fact I am best known for doing idle animations for games and such. The original code will run for the AI or player to be a idle 
+like this:
+
+![image](https://github.com/user-attachments/assets/bcd1d5f8-8f05-48c2-98b1-26abc89eca31)
+
+
 So what I tinkered with this code so far: 
 ```js
 const bean = add([ sprite("bean", {// start with animation "run" anim: "run", }),])
