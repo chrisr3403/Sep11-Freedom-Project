@@ -1,7 +1,7 @@
 # Entry 1
 ##### 11/3/24
 
-## Section Content: 
+## Section 1 Content: 
 Hello and Welcome! My name is Christian Ramos part of the SEP11 course coding class at HSTAT. 
 I am here to share my blog and content about my learning so far about the tool that I use. 
 I am using this tool [Kaboom](https://kaboomjs.com) is a game developing tool for like platformer type games. With this tool you can make games that can be pixelated or 
