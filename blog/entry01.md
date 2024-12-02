@@ -14,6 +14,7 @@ like this:
 
 ![image](https://github.com/user-attachments/assets/bcd1d5f8-8f05-48c2-98b1-26abc89eca31)
 
+The idle makes it stay in one position or in most cases a animation while staying idle
 
 So what I tinkered with this code so far: 
 ```js
