@@ -33,10 +33,14 @@ Here this code example shows that in random points in time a sprite or a AI will
 ![2024-12-02 21-29-11](https://github.com/user-attachments/assets/eb685641-71ba-42da-9138-7c05f880ba37)
 
 But In my own tinkering instead of it going to random locations on a area the AI/Sprite must go to a location I forced it to go to.
-Instead of the blank positioning I applied numbers on the grid to simulate how I want the player or sprite to spawn as it shows here in the code down below.
+Instead of the blank positioning I applied numbers on the grid to simulate how I want the player or sprite to spawn as it shows here in the code down below first the player location.
 ```js
-`([sprite("optimus"),pos(x 100, y 100),])` 
+const player = add([
+	sprite("bean"),   
+	pos(50, 50),    
+	anchor("center")
 ```
+
 
 You can choose what animations you want to use for your player and AI maybe a attack animation but so far it is limited to what animations you want to do.
 Learning how to make animations is easy throughout the years of my experience and Kaboom extended that experience for my own platformer.
