@@ -43,7 +43,10 @@ const player = add([
 ![2024-12-0305-42-00-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/dd1014bc-3daa-4baf-8fd4-a9cf6d383ad6)
 
 In this short video it demonstrates how the sprite itself is moving which can be useful for moving a sprite or a player to get to level 2 or final level
-in a game.
+in a game which I myself have replicated multiple times which is very easy when switching the values of the location. 
+
+When it comes to locations sometimes you may not need location values and instead using pos `(x,y),` which will make it so you can spawn at random points 
+of the level in the game.
 
 
 You can choose what animations you want to use for your player and AI maybe a attack animation but so far it is limited to what animations you want to do.
