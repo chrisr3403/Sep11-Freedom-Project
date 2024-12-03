@@ -49,7 +49,7 @@ During the location test I have done so far I got the picture on locations using
 I would advice to keep on tinkering with the locations to see how far the location knowledge can be.
 
 
-
+## My Engineering Design Process: 
 You can choose what animations you want to use for your player and AI maybe a attack animation but so far it is limited to what animations you want to do.
 Learning how to make animations is easy throughout the years of my experience and Kaboom extended that experience for my own platformer.
 to create games. In time I have developed skills to know how to use my tool, skills such as knowing how to make more AI/sprites and make them also customizable.
