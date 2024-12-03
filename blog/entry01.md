@@ -46,10 +46,24 @@ In this short video it demonstrates how the sprite itself is moving which can be
 in a game which I myself have replicated multiple times which is very easy when switching the values of the location. 
 
 During the location test I have done so far I got the picture on locations using the position which is very hard to do but it manage. It still needs room for improvement as the location must be accurate and for AI movement. My result was at first nothing happened but realized the AI was off the map. 
-I would advice to keep on tinkering with the locations to see how far the location knowledge can be.
+I would advice to keep on tinkering with the locations for you to know how to give a understanding on how they work.
 
 
 ## My Engineering Design Process: 
+Before being a expert on making locations for players and sprites I first hand did this on Kaboom step by step with:
+
+1. Understanding what Code I am using:
+   Learning the code here ` add([sprite("Decepticon"), pos(x, y)])` which makes a sprite be at any given location.
+
+2. Identifying what problems I have with this code
+   I must figure out how to make the sprites spawn at the location I want.
+   which the very challenging part about that is the numbers on what location I want them to go on.
+
+
+
+
+
+
 You can choose what animations you want to use for your player and AI maybe a attack animation but so far it is limited to what animations you want to do.
 Learning how to make animations is easy throughout the years of my experience and Kaboom extended that experience for my own platformer.
 to create games. In time I have developed skills to know how to use my tool, skills such as knowing how to make more AI/sprites and make them also customizable.
