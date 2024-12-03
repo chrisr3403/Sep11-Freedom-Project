@@ -5,7 +5,7 @@
 Hello My name is Christian Ramos and I am here to talk about what I learned so far for using my tool during this month. 
 I am using this tool [Kaboom](https://kaboomjs.com) is a game developing tool for like platformer type games. With this tool you can make games that can be pixelated or 
 customizable. My learning of it has grown so much about it I do many tests like making AI to go to a certain position on the game code using kaboom.
-One of the many codes I know is animations for a sprite or a AI
+One of the many codes I know is animations for a sprite or a AI.
 ```js
 const bean = add([ sprite("bean", {// start with animation "idle" anim: "idle", }),])
 ```
@@ -57,8 +57,18 @@ Before being a expert on making locations for players and sprites I first hand d
 
 2. Identifying what problems I have with this code
    I must figure out how to make the sprites spawn at the location I want.
-   which the very challenging part about that is the numbers on what location I want them to go on.
+   which the very challenging part about that is the numbers on what location I want them to spawn on.
 
+3. The locations I brainstorm I test with:
+   To understand locations more and more I have to first test and brainstorm randomized location numbers to see if the sprite will spawn there.
+   Brainstorming these should be easy but hard to know where to make them spawn in.
+   `add([sprite("Decepticon"), pos(120, -120)])`
+   any number added should result into the sprite spawning at that coordinates I assigned it to.
+
+4. Sprites spawning at any given location (follow up to number 3)
+   
+   
+   
 
 
 
