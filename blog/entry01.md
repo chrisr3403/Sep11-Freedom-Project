@@ -20,7 +20,7 @@ So what I tinkered with this code so far:
 ```js
 const bean = add([ sprite("bean", {// start with animation "run" anim: "run", }),])
 ```
-this code instead of it taking the idle it's doing the running animation, when running its triggered when the player or AI wants to do that animation.
+^ instead of it taking the idle it's doing the running animation, when running its triggered when the player or AI wants to do that animation.
 So it any case the running will go into a forward direction and not stay static idle which is good in most game scenario.
 
 I started learning how to do animations due to creating AI and player cosmetics I realized I need to make the AI move at points of interest.
@@ -36,10 +36,14 @@ But In my own tinkering instead of it going to random locations on a area the AI
 Instead of the blank positioning I applied numbers on the grid to simulate how I want the player or sprite to spawn as it shows here in the code down below first the player location.
 ```js
 const player = add([
-	sprite("bean"),   
+	sprite("optimus"),   
 	pos(50, 50),    
 	anchor("center")
 ```
+![2024-12-0305-42-00-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/dd1014bc-3daa-4baf-8fd4-a9cf6d383ad6)
+
+In this short video it demonstrates how the sprite itself is moving which can be useful for moving a sprite or a player to get to level 2 or final level
+in a game.
 
 
 You can choose what animations you want to use for your player and AI maybe a attack animation but so far it is limited to what animations you want to do.
