@@ -21,6 +21,9 @@ So what I tinkered with this code so far:
 const bean = add([ sprite("bean", {// start with animation "run" anim: "run", }),])
 ``` 
 this code instead of it taking the idle it's doing the running animation, when running its triggered when the player or AI wants to do that animation.
+Instead of what we saw above it will make it so you are running instead of staying in one position. 
+For a bonus feature if you want to stop the animation like the idle so the player sprite can remain in static I would suggest using this
+
 
 
 You can choose what animations you want to use for your player and AI maybe a attack animation but so far it is limited to what animations you want to do.
