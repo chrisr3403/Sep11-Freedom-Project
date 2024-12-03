@@ -45,8 +45,9 @@ const player = add([
 In this short video it demonstrates how the sprite itself is moving which can be useful for moving a sprite or a player to get to level 2 or final level
 in a game which I myself have replicated multiple times which is very easy when switching the values of the location. 
 
-When it comes to locations sometimes you may not need location values and instead using pos `(x,y),` which will make it so you can spawn at random points 
-of the level in the game.
+During the location test I have done so far I got the picture on locations using the position which is very hard to do but it manage. It still needs room for improvement as the location must be accurate and for AI movement. My result was at first nothing happened but realized the AI was off the map. 
+I would advice to keep on tinkering with the locations to see how far the location knowledge can be.
+
 
 
 You can choose what animations you want to use for your player and AI maybe a attack animation but so far it is limited to what animations you want to do.
