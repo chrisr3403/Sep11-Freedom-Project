@@ -81,7 +81,21 @@ Before being a expert on making locations for players and sprites I first hand d
    randomize the locations test them out one by one step by step make random pin points and locations
    and the test will come out all the same.
 
-   ## Section 3: My Skills on Kaboom So Far.
+## Section 3: My Skills on Kaboom So Far.
+
+I will go over each skill I have learned when I was using Kaboom:
+
+Skill 1.
+A Skill I've gained while doing Kaboom is positioning sprites `pos(x, y)` function using number locations for a alternative `pos(50, 100)`
+number locations for a sprite which can be useful for mark spawn points for each sprite. 
+I can use it to make it so every position as randomized using the first code above which is good for game sprites.
+
+Skill 2.
+Learning how to make a sprite style character like optimus prime for my custom platformer which many people can use other sprite skins.
+
+Skill 3.
+Learning how to use the kaboom.js in many ways when it comes to skins positioning and animations for games that I want to create in the future!
+
    
    
    
@@ -93,7 +107,7 @@ Before being a expert on making locations for players and sprites I first hand d
 
 
 
-
+My Original Blog. (Don't ever do it like this)
 You can choose what animations you want to use for your player and AI maybe a attack animation but so far it is limited to what animations you want to do.
 Learning how to make animations is easy throughout the years of my experience and Kaboom extended that experience for my own platformer.
 to create games. In time I have developed skills to know how to use my tool, skills such as knowing how to make more AI/sprites and make them also customizable.
