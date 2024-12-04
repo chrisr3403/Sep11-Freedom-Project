@@ -74,13 +74,14 @@ Without the skin it will appear as a error on your screen make sure everything o
 Everything must be registered also to the sprite name as well
 Example being: `sprite("optimus")` the sprite must register the name "optimus" for the sprite character to load.
 
+I used [Replit](https://www.youtube.com/watch?v=37rASpfnCCM) to give me a reference on how to make the sprites load in as the person in the video used replit and did the same 
+method to make the images as sprites.
+
 ## Section 2: My Engineering Design Process: 
 At the moment I think I am in the reserching part of this project level 2 overtime 
 I will research more and more on how to make locations more accurate instead of just randomizing my location values. 
 I will make it so my research will progress me to learn my tool further and make it to know new things for games.
 For now I must research.
-
-
 
 ## Section 3: My Skills on Kaboom So Far.
 
