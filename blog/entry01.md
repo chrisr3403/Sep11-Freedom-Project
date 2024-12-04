@@ -116,8 +116,9 @@ number locations for a sprite which can be useful for mark spawn points for each
 I can use it to make it so every position as randomized using the first code above which is good for game sprites.
 
 Skill 2.
-Learning how to make a sprite style character like optimus prime for my custom platformer which many people can use other sprite skins
-colors for their character which make the customizable platformer well customizable!
+Learning how to make a sprite skin style character like optimus prime for my custom platformer which many people can use other sprite skins
+colors for their character which make the customizable platformer well customizable! 
+It's a skill that I gained because now I can be able to make any sprite any character I want.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
