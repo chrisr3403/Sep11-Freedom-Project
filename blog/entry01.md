@@ -75,7 +75,10 @@ Everything must be registered also to the sprite name as well
 Example being: `sprite("optimus")` the sprite must register the name "optimus" for the sprite character to load.
 
 I used [Replit](https://www.youtube.com/watch?v=37rASpfnCCM) to give me a reference on how to make the sprites load in as the person in the video used replit and did the same 
-method to make the images as sprites.
+method to make the images as sprites by the code of:
+```js
+loadSprite("name", "name.png")
+```
 
 ## Section 2: My Engineering Design Process: 
 At the moment I think I am in the reserching part of this project level 2 overtime 
