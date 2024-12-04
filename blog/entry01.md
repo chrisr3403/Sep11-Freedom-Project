@@ -1,7 +1,7 @@
 # Entry 1
 ##### 11/3/24
 
-## What I learned So Far: 
+## Section 1: What I learned So Far: 
 Hello My name is Christian Ramos and I am here to talk about what I learned so far for using my tool during this month. 
 I am using this tool [Kaboom](https://kaboomjs.com) is a game developing tool for like platformer type games. With this tool you can make games that can be pixelated or 
 customizable. My learning of it has grown so much about it I do many tests like making AI to go to a certain position on the game code using kaboom.
@@ -49,7 +49,7 @@ During the location test I have done so far I got the picture on locations using
 I would advice to keep on tinkering with the locations for you to know how to give a understanding on how they work.
 
 
-## My Engineering Design Process: 
+## Section 2: My Engineering Design Process: 
 Before being a expert on making locations for players and sprites I first hand did this on Kaboom step by step with:
 
 1. Understanding what Code I am using:
@@ -58,11 +58,11 @@ Before being a expert on making locations for players and sprites I first hand d
    ![image](https://github.com/user-attachments/assets/da4cf18f-247d-4a36-97e6-34a8fe72e574)
 
 
-3. Identifying what problems I have with this code:
+2. Identifying what problems I have with this code:
    I must figure out how to make the sprites spawn at the location I want.
    which the very challenging part about that is the numbers on what location I want them to spawn on.
 
-4. The locations I brainstorm I test with:
+3. The locations I brainstorm I test with:
    To understand locations more and more I have to first test and brainstorm randomized location numbers to see if the sprite will spawn there.
    Brainstorming these should be easy but hard to know where to make them spawn in.
    `add([sprite("optimus"), pos(120, -120)])`
@@ -71,17 +71,17 @@ Before being a expert on making locations for players and sprites I first hand d
    Observe my first test in kaboom.
    ![2024-12-03 18-58-51](https://github.com/user-attachments/assets/bcec5934-f1fa-443d-a5aa-b8eee83f6d71)
 
-6. Anything that Needs Improvements upon spawning:
+4. Anything that Needs Improvements upon spawning:
    For one when A sprite spawns sprites need to move upon spawning as well as giving it a exact location instead of just a random one.
    As a conclusion I must focus on now making sprites to move to given points.
    When a sprite spawns in front of a player it needs pathing or something that may need it to move towards the player or spawn idle after it spawns.
 
-7. How I solved the issue and identified the problem:
+5. How I solved the issue and identified the problem:
    The whole time on how to solve these issues is rather hard at first but easy all I have to do it
    randomize the locations test them out one by one step by step make random pin points and locations
    and the test will come out all the same.
 
-   ## My Skills on Kaboom So Far.
+   ## Section 3: My Skills on Kaboom So Far.
    
    
    
