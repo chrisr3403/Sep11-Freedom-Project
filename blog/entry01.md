@@ -30,7 +30,7 @@ So I looked through Kaboom and found the code add
 ```js
 ([sprite("ghosty"),pos(x, y),])
 ```
-Here a example that I tinkered that shows in random points in time a sprite or a AI will move in any direction as shown in the video below.
+Here a example that shows in random points in time a sprite or a AI will move in any direction as shown in the video below.
 
 ![2024-12-02 21-29-11](https://github.com/user-attachments/assets/eb685641-71ba-42da-9138-7c05f880ba37)
 
@@ -42,6 +42,7 @@ const player = add([
 	pos(50, 50),    
 	anchor("center")
 ```
+Here a example that I tinkered below
 ![2024-12-0305-42-00-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/dd1014bc-3daa-4baf-8fd4-a9cf6d383ad6)
 
 In this short video it demonstrates how the sprite itself is moving which can be useful for moving a sprite or a player to get to level 2 or final level
