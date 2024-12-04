@@ -53,7 +53,10 @@ I would advice to keep on tinkering with the locations for you to know how to gi
 Before being a expert on making locations for players and sprites I first hand did this on Kaboom step by step with:
 
 1. Understanding what Code I am using:
-   Learning the code here ` add([sprite("Decepticon"), pos(x, y)])` which makes a sprite be at any given location.
+   Learning the code here  which makes a sprite be at any given location.
+
+   ![image](https://github.com/user-attachments/assets/da4cf18f-247d-4a36-97e6-34a8fe72e574)
+
 
 3. Identifying what problems I have with this code:
    I must figure out how to make the sprites spawn at the location I want.
@@ -66,17 +69,19 @@ Before being a expert on making locations for players and sprites I first hand d
    any number added should result into the sprite spawning at that coordinates I assigned it to eventually it worked but in a different way.
    Observe my first test in kaboom.
 
-   
-
-   
-  
-
-6. Anything that Needs Improvements upon spawning:
+5. Anything that Needs Improvements upon spawning:
    For one when A sprite spawns sprites need to move upon spawning.
    As a conclusion I must focus on now making sprites to move to given points.
    When a sprite spawns in front of a player it needs pathing or something that may need it to move towards the player or spawn idle after it spawns.
 
-7. My ending to my design process
+6. How I solved the issue and identified the problem:
+   The whole time on how to solve these issues is rather hard at first but easy all I have to do it
+   randomize the locations test them out one by one step by step make random pin points and locations
+   and the test will come out all the same. Here i
+   
+   
+   
+   
    
    
    
