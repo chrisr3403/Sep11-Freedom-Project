@@ -48,8 +48,31 @@ in a game which I myself have replicated multiple times which is very easy when 
 During the location test I have done so far I got the picture on locations using the position which is very hard to do but it manage. It still needs room for improvement as the location must be accurate and for AI movement. My result was at first nothing happened but realized the AI was off the map. 
 I would advice to keep on tinkering with the locations for you to know how to give a understanding on how they work.
 
+Another part I tinkered with my Kaboom platformer is the skin of a sprite. 
+This will be very useful in future game updates. What is it that I tinkered with?
+This code for the sprite / Load a sprite asset from "sprites/bean.png", with the name "bean"
+```js
+loadSprite("optimus", "104-1047414_optimus-prime-pixel-art-transformers-optimus-prime-clipart.png")
+```
+This by default will load in a sprite being registered by a jpeg, png or even a gif.
+The code can also be connected to the animations if you want a character to have a running pose or a standing pose.
+Here is a preview of the tinkering on how to make the skin/sprite you want. (this goes for AI sprites too.)
+
+![image](https://github.com/user-attachments/assets/218f52a3-9f82-4077-b61d-69301aaf34d0)
+
+Image outcome 
+![image](https://github.com/user-attachments/assets/dc816e8c-2b42-4feb-b33c-d1f88da0f567)
+
+You need to also create your own png file so the sprite can be able to register it's skin.
+
+![image](https://github.com/user-attachments/assets/da4d0900-f449-4c12-a376-0a9f0be46297)
+
+Without the skin it will appear as a error on your screen make sure everything on it.
+Everything must be registered also to the sprite name as well
+Example being: `sprite("optimus")` the sprite must register the name "optimus" for the sprite character to load.
 
 ## Section 2: My Engineering Design Process: 
+
 Before being a expert on making locations for players and sprites I first hand did this on Kaboom step by step with:
 
 1. Understanding what Code I am using:
@@ -95,17 +118,6 @@ Learning how to make a sprite style character like optimus prime for my custom p
 
 Skill 3.
 Learning how to use the kaboom.js in many ways when it comes to skins positioning and animations for games that I want to create in the future!
-
-   
-   
-   
-   
-   
-   
-   
-
-
-
 
 My Original Blog. (Don't ever do it like this)
 You can choose what animations you want to use for your player and AI maybe a attack animation but so far it is limited to what animations you want to do.
