@@ -82,7 +82,6 @@ Before being a expert on making locations for players and sprites I first hand d
 
    ![image](https://github.com/user-attachments/assets/da4cf18f-247d-4a36-97e6-34a8fe72e574)
 
-
 2. Identifying what problems I have with this code:
    I must figure out how to make the sprites spawn at the location I want.
    which the very challenging part about that is the numbers on what location I want them to spawn on.
