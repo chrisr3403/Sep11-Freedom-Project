@@ -75,36 +75,12 @@ Everything must be registered also to the sprite name as well
 Example being: `sprite("optimus")` the sprite must register the name "optimus" for the sprite character to load.
 
 ## Section 2: My Engineering Design Process: 
+At the moment I think I am in the reserching part of this project level 2 overtime 
+I will research more and more on how to make locations more accurate instead of just randomizing my location values. 
+I will make it so my research will progress me to learn my tool further and make it to know new things for games.
+For now I must research.
 
-Before being a expert on making locations for players and sprites I first hand did this on Kaboom step by step with:
 
-1. Understanding what Code I am using:
-   Learning the code here which makes a sprite be at any given location.
-
-   ![image](https://github.com/user-attachments/assets/da4cf18f-247d-4a36-97e6-34a8fe72e574)
-
-2. Identifying what problems I have with this code:
-   I must figure out how to make the sprites spawn at the location I want.
-   which the very challenging part about that is the numbers on what location I want them to spawn on.
-
-3. The locations I brainstorm I test with:
-   To understand locations more and more I have to first test and brainstorm randomized location numbers to see if the sprite will spawn there.
-   Brainstorming these should be easy but hard to know where to make them spawn in.
-   `add([sprite("optimus"), pos(120, -120)])`
-   any number added should result into the sprite spawning at that coordinates I assigned it to eventually it worked but in a different way.
-   
-   Observe my first test in kaboom.
-   ![2024-12-03 18-58-51](https://github.com/user-attachments/assets/bcec5934-f1fa-443d-a5aa-b8eee83f6d71)
-
-4. Anything that Needs Improvements upon spawning:
-   For one when A sprite spawns sprites need to move upon spawning as well as giving it a exact location instead of just a random one.
-   As a conclusion I must focus on now making sprites to move to given points.
-   When a sprite spawns in front of a player it needs pathing or something that may need it to move towards the player or spawn idle after it spawns.
-
-5. How I solved the issue and identified the problem:
-   The whole time on how to solve these issues is rather hard at first but easy all I have to do it
-   randomize the locations test them out one by one step by step make random pin points and locations
-   and the test will come out all the same.
 
 ## Section 3: My Skills on Kaboom So Far.
 
