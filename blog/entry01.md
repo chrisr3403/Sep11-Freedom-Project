@@ -3,14 +3,16 @@
 
 ## Section 1: What I learned So Far: 
 Hello My name is Christian Ramos and I am here to talk about what I learned so far for using my tool during this month. 
-I am using this tool [Kaboom](https://kaboomjs.com) is a game developing tool for like platformer type games. With this tool you can make games that can be pixelated or 
-customizable. My learning of it has grown so much about it I do many tests like making AI to go to a certain position on the game code using kaboom.
-One of the many codes I know is animations for a sprite or a AI.
+I am using this tool [Kaboom](https://kaboomjs.com) a game development tool for platformer-style games. With this tool you can make games that can be pixelated or 
+customizable. My learning of it has grown so much about it I have conducted many tests, such as programming AI to move to specific positions within the game.
+One of the features I’ve learned is creating animations for sprites and AI.
+
 ```js
 const bean = add([ sprite("bean", {// start with animation "idle" anim: "idle", }),])
 ```
-This code is used for things such as idle animations in fact I am best known for doing idle animations for games and such. The original code will run for the AI or player to be a idle 
-like this:
+This code is used for things such as idle animations in fact I am best known for doing idle animations for games and such. 
+The idle makes it so the AI is in it's idle pose or static pose rather then just moving at all.
+The original code will run for the AI or player to be a idle like this:
 
 ![image](https://github.com/user-attachments/assets/bcd1d5f8-8f05-48c2-98b1-26abc89eca31)
 
@@ -28,7 +30,7 @@ So I looked through Kaboom and found the code add
 ```js
 ([sprite("ghosty"),pos(x, y),])
 ```
-Here this code example shows that in random points in time a sprite or a AI will move in any direction as shown in the video below.
+Here a example that I tinkered that shows in random points in time a sprite or a AI will move in any direction as shown in the video below.
 
 ![2024-12-02 21-29-11](https://github.com/user-attachments/assets/eb685641-71ba-42da-9138-7c05f880ba37)
 
