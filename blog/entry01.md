@@ -81,7 +81,7 @@ Before being a expert on making locations for players and sprites I first hand d
    randomize the locations test them out one by one step by step make random pin points and locations
    and the test will come out all the same.
 
-   
+   ## My Skills on Kaboom So Far.
    
    
    
