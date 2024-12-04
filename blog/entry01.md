@@ -36,13 +36,13 @@ Here a example that shows in random points in time a sprite or a AI will move in
 
 But In my own tinkering instead of it going to random locations on a area the AI/Sprite must go to a location I forced it to go to.
 Instead of the blank positioning I applied numbers on the grid to simulate how I want the player or sprite to spawn as it shows here in the code down below first the player location.
+Here a example that I tinkered below
 ```js
 const player = add([
 	sprite("optimus"),   
 	pos(50, 50),    
 	anchor("center")
 ```
-Here a example that I tinkered below
 ![2024-12-0305-42-00-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/dd1014bc-3daa-4baf-8fd4-a9cf6d383ad6)
 
 In this short video it demonstrates how the sprite itself is moving which can be useful for moving a sprite or a player to get to level 2 or final level
@@ -79,7 +79,7 @@ Example being: `sprite("optimus")` the sprite must register the name "optimus" f
 Before being a expert on making locations for players and sprites I first hand did this on Kaboom step by step with:
 
 1. Understanding what Code I am using:
-   Learning the code here  which makes a sprite be at any given location.
+   Learning the code here which makes a sprite be at any given location.
 
    ![image](https://github.com/user-attachments/assets/da4cf18f-247d-4a36-97e6-34a8fe72e574)
 
