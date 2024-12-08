@@ -51,7 +51,12 @@ learned how make a sprite have a different skin or png to whatever I want. What 
 "optimus.png") ``` this will basically make the character or AI have the sprite loaded as "optimus" you can change it to whatever you prefer on what project you are making.
 A a-ha moments I have for myself is trying to get the png loading in I had the code but A BIG thing that I was missing is the png directory.
 I thought I had put it in but I had to make it as a directory similar to github when putting a png.
-The questions I still have is: How will the png move in terms of animation or will it be static pose? Something I will find out in the next one when I try Animations!
+The questions I still have is: How will Ai spawn? how will it be at a location when running the game? Next I will be trying location positions in Kaboom.
+
+### 11/24/2024
+* Hello and welcome to the learning log entry five! My name is Christian Ramos and I am here to discuss my learning on how to do positioning!
+  Over the course of using my tool [Kaboom](https://kaboomjs.com/) I have been learning over time on making locations for AI or sprite start/spawns.
+  So I did a experiment on a AI sprites for them to spawn though I will say the progress on it went by quick since it is a very simple process.
 
 <!-- 
 * Links you used today (websites, videos, etc)
