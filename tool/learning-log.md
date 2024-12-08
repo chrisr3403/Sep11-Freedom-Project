@@ -43,7 +43,7 @@ My questions I have is what will color bring to the games, what is the hot take 
 Well to answer that question sometime in the future I will try how to swap skins using a sprite skin swap. 
 
 ### 11/24/2024
-* Hello and welcome to my learning log entry four! My name is christian ramos and I am to talk about my skin swapping lesson!
+* Hello and welcome to my learning log entry four! My name is Christian Ramos and I am to talk about my skin swapping lesson!
 Using [Kaboom](https://kaboomjs.com/) I have been learning how to do skin swapping within a character or AI for quite sometime.
 So I tried to give one of my sprite a optimus prime character and the progress of it is very very A BIG very easy progress and works perfectly.
 I used this video to help me learn on how to make skins/png sprites [Learn to Make a Game with Kaboom.js in 39 Minutes](https://www.youtube.com/watch?v=hgReGsh5xVU&t=402s) with this I
@@ -57,6 +57,9 @@ The questions I still have is: How will Ai spawn? how will it be at a location w
 * Hello and welcome to the learning log entry five! My name is Christian Ramos and I am here to discuss my learning on how to do positioning!
   Over the course of using my tool [Kaboom](https://kaboomjs.com/) I have been learning over time on making locations for AI or sprite start/spawns.
   So I did a experiment on a AI sprites for them to spawn though I will say the progress on it went by quick since it is a very simple process.
+  I used this website to give me a idea on how to set a position of sprites which is [JSLegend](https://jslegenddev.substack.com/p/how-to-implement-player-controls)
+  
+  
 
 <!-- 
 * Links you used today (websites, videos, etc)
