@@ -53,12 +53,29 @@ A a-ha moments I have for myself is trying to get the png loading in I had the c
 I thought I had put it in but I had to make it as a directory similar to github when putting a png.
 The questions I still have is: How will Ai spawn? how will it be at a location when running the game? Next I will be trying location positions in Kaboom.
 
-### 11/24/2024
+### 12/8/2024
 * Hello and welcome to the learning log entry five! My name is Christian Ramos and I am here to discuss my learning on how to do positioning!
   Over the course of using my tool [Kaboom](https://kaboomjs.com/) I have been learning over time on making locations for AI or sprite start/spawns.
   So I did a experiment on a AI sprites for them to spawn though I will say the progress on it went by quick since it is a very simple process.
   I used this website to give me a idea on how to set a position of sprites which is [JSLegend](https://jslegenddev.substack.com/p/how-to-implement-player-controls)
-  
+  JSLegend has taught me all I need to know About positioning a sprite. The code I tinkered for my Sprite is the position
+  ```js
+  pos(x, y)
+  ```
+  This makes it so I can move any sprite in the game. For what I really tinkered with it is the part where the ```(x, y)``` to make it so it has numbers for a location.
+ ```js
+const player = add([
+	sprite("Optimus"),
+	pos(200, 90),
+	anchor("center"),
+])
+```
+What I did instead is experment with locations giving it number values to see where the sprite will appear on the game when running the game. 
+I ran a few tests to see how the locations work and if you set the position to  `pos(x,y), ` it will teleport the sprite in different places after running the game multiple times. 
+Though I did have some challenges for this such as pin pointing where I want the sprite to show up and to this day I have yet to know where to make it spawn where I want it to spawn.
+Pin pointing these locations is hard if you want exact locations it's a hit or miss to make the location you want.
+My question for locations is: How will we be able to pin point locatiosn correctly? Will it be easy to do? for what I will try next is moving a sprite manually using keys on the 
+keyboard to see how will they all function all the same!
   
 
 <!-- 
