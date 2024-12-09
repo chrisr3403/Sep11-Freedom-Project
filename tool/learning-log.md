@@ -58,11 +58,7 @@ The questions I still have is: How will Ai spawn? how will it be at a location w
   Over the course of using my tool [Kaboom](https://kaboomjs.com/) I have been learning over time on making locations for AI or sprite start/spawns.
   So I did a experiment on a AI sprites for them to spawn though I will say the progress on it went by quick since it is a very simple process.
   I used this website to give me a idea on how to set a position of sprites which is [JSLegend](https://jslegenddev.substack.com/p/how-to-implement-player-controls)
-  JSLegend has taught me all I need to know About positioning a sprite. The code I tinkered for my Sprite is the position
-  ```js
-  pos(x, y)
-  ```
-  This makes it so I can move any sprite in the game. For what I really tinkered with it is the part where the ```(x, y)``` to make it so it has numbers for a location.
+  JSLegend has taught me all I need to know About positioning a sprite. The code I tinkered for my Sprite is the position:
  ```js
 const player = add([
 	sprite("Optimus"),
