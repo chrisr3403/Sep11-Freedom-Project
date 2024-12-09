@@ -54,7 +54,7 @@ I thought I had put it in but I had to make it as a directory similar to github 
 The questions I still have is: How will Ai spawn? how will it be at a location when running the game? Next I will be trying location positions in Kaboom.
 
 ### 12/8/2024
-* Hello and welcome to the learning log entry five! My name is Christian Ramos and I am here to discuss my learning on how to do positioning!
+* Hello and welcome to the learning log entry five! My name is Christian Ramos and I am here to discuss my learning on how to do positioning for sprites!
   Over the course of using my tool [Kaboom](https://kaboomjs.com/) I have been learning over time on making locations for AI or sprite start/spawns.
   So I did a experiment on a AI sprites for them to spawn though I will say the progress on it went by quick since it is a very simple process.
   I used this website to give me a idea on how to set a position of sprites which is [JSLegend](https://jslegenddev.substack.com/p/how-to-implement-player-controls)
