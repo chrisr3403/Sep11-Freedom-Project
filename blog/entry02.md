@@ -24,10 +24,9 @@ I started to learn more on how to make a player move where I want it which is so
 
 Another part I tinkered with was moving your character manually.
 For this it requires keys on your keyboard so you will be able to move the character you play as.
+From kaboom here is a example:
 
 ![image](https://github.com/user-attachments/assets/b6a0247c-1429-4331-9265-5d21bab2b594)
-
-From kaboom here is a example:
 
 Pressing a key triggers anything that the key is assigned to.
 But In my own tinkering I made it so you can move left and right as your character my code example is down below.
