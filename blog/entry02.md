@@ -1,4 +1,4 @@
-## Entry 1
+## Entry 2
 12/14/24
 
 ## Section 1: My Learning so far:
@@ -57,11 +57,11 @@ I used Replit to give me a reference on how to make the sprites load in as the p
 
 loadSprite("name", "name.png")
 
-Section 2: My Engineering Design Process:
+## Section 2: My Engineering Design Process:
 Just like my first blog I am still at the reserching part of this project level 2 still I will continue to research so I can continue with my project 
 but so far I am at the reserching part my stage over time will hopefully increase based on my knowledge for my projects and KaBoom.
 
-Section 3: My Skills on Kaboom So Far.
+## Section 3: My Skills on Kaboom So Far.
 I will go over the two skills I have learned and gained while using Kaboom:
 
 Skill 1. A Skill I gathered so far is creativity, I never thought of making a customizable sprites so it can make animations or change the color and skin. This will be very good for the future because with amounts of creativity I can do I can make a full custom game.
