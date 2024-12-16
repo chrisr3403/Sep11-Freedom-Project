@@ -1,4 +1,4 @@
-###Entry 1
+## Entry 1
 12/14/24
 
 ## Section 1: My Learning so far:
