@@ -13,9 +13,11 @@ cutscene in the game or approching a part of the map like a reach point.
 So what I tinkered with this code so far:
 
 `player.moveTo(300, 200)`
-^ instead of the x y and I did the location where I want the sprite of my player to be at. This can be useful for checkpoints, like for example let's say you failed a level the location can be triggered so you move to that location instead similar to giving locations to a ghost sprite.
+^ instead of the x y and I did the location where I want the sprite of my player to be at. This can be useful for checkpoints, like for example let's say you failed a level the 
+location can be triggered so you move to that location instead similar to giving locations to a ghost sprite.
 
-A example here from the video that I did.:
+A example here from the video that I did.
+
 ![2024-12-16 13-11-22](https://github.com/user-attachments/assets/b6da3840-bcfd-48ed-85ca-3408a8c2bf31)
 
 I started to learn more on how to make a player move where I want it which is something I can takeaway from this.
@@ -25,11 +27,12 @@ For this it requires keys on your keyboard so you will be able to move the chara
 
 From kaboom here is a example:
 ![image](https://github.com/user-attachments/assets/b6a0247c-1429-4331-9265-5d21bab2b594)
+
 Pressing a key triggers anything that the key is assigned to.
 
 But In my own tinkering I made it so you can move left and right as your character my code example is down below.
 
-![image](https://github.com/user-attachments/assets/0092daa6-dde7-4b1a-a0f1-dc8c6afd9ac1)
+![image](https://github.com/user-attachments/assets/5a4ce0a8-a397-4cdc-9bd4-589b40c5710f)
 
 this code demostrates the programing on moving using a key so the sprite can move. In the future this can be useful for when you want a sprite to move on command.
 
