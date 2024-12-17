@@ -64,10 +64,9 @@ so what I did is add the const speed missing code to make it work which showed t
 You can modify the speed to any way you want so say what I did was 320 normal speed but if I put it to 0 it will not move.
 I used a video guide from [freecodecamp](https://www.bing.com/videos/riverview/relatedvideo?&q=kaboom+tutorial&qpvt=kaboom+tutorial&mid=6A99D7A7E5AE3EDBAACB6A99D7A7E5AE3EDBAACB&mmscn=mtsc&aps=0&FORM=VRDGAR) to give me a idea on how to move characters.
 
-
 ## Section 2: My Engineering Design Process:
 Just like my first blog I am still at the reserching part of this project level 2 still I will continue to research so I can continue with my project 
-but so far I am at the reserching part my stage over time will hopefully increase based on my knowledge for my projects and KaBoom.
+but so far I am at the reserching part my stage over time will hopefully increase based on my knowledge for my projects and Kaboom.
 
 ## Section 3: My Skills on Kaboom So Far.
 I will go over the two skills I have learned and gained while using Kaboom:
