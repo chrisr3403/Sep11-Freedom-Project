@@ -6,13 +6,18 @@ Hello My name is Christian Ramos and I am here to talk about what I learned so f
 platformer-style games. With this tool you can make games that can be pixelated or customizable. My learning of it has grown so much about it I have conducted many tests, such as 
 programming AI to move to specific positions within the game. One of the features I’ve learned moving a sprite with a key or making them move to a location for you the player.
 
-`player.moveTo(x, y)`
+```js
+player.moveTo(x, y)
+```
 This is a example of one of my learning. Setting a player or the sprite to move on it's own. Think of a cutscene in a game you want to make a cutscene that makes the player run to the 
 cutscene in the game or approching a part of the map like a reach point.
 
 So what I tinkered with this code so far:
 
-`player.moveTo(300, 200)`
+``` js
+player.moveTo(300, 200)
+```
+
 ^ instead of the x y and I did the location where I want the sprite of my player to be at. This can be useful for checkpoints, like for example let's say you failed a level the 
 location can be triggered so you move to that location instead similar to giving locations to a ghost sprite.
 
@@ -41,23 +46,24 @@ Here is the video tinker result:
 
 The video has shown massive results as it shows how I can move my sprite side to side.
 So in the future when I make the game you can navagate in the level so you can roam freely.
+So by default the movement will respond to the code of:
 
-loadSprite("optimus", "104-1047414_optimus-prime-pixel-art-transformers-optimus-prime-clipart.png")
-This by default will load in a sprite being registered by a jpeg, png or even a gif. The code can also be connected to the animations if you want a character to have a running pose or a standing pose. Here is a preview of the tinkering on how to make the skin/sprite you want. (this goes for AI sprites too.)
+```js
+onKeyDown("left", () => {
+    player.move(-SPEED, 0)
+```
+though the code needs to respond to another code with the speed because if it does not have this code:
 
-image
+```js
+const SPEED = 320
+```
 
-Image outcome image
+you will get a error message of:
+![image](https://github.com/user-attachments/assets/2f9933f1-25ac-410f-b6ba-21b1191a651a)
 
-You need to also create your own png file so the sprite can be able to register it's skin.
-
-image
-
-Without the skin it will appear as a error on your screen make sure everything on it. Everything must be registered also to the sprite name as well Example being: sprite("optimus") the sprite must register the name "optimus" for the sprite character to load.
-
-I used Replit to give me a reference on how to make the sprites load in as the person in the video used replit and did the same method to make the images as sprites by the code of:
-
-loadSprite("name", "name.png")
+Without the const speed the speed won't be defind which will cause issues
+so what I did is add the const speed missing code to make it work which showed the speed must be referenced.
+You can modify the speed to any way you want so say what I did was 320 normal speed but if I put it to 0 it will not move.
 
 ## Section 2: My Engineering Design Process:
 Just like my first blog I am still at the reserching part of this project level 2 still I will continue to research so I can continue with my project 
