@@ -71,6 +71,8 @@ but so far I am at the reserching part my stage over time will hopefully increas
 ## Section 3: My Skills on Kaboom So Far.
 I will go over the two skills I have learned and gained while using Kaboom:
 
-Skill 1. A Skill I gathered so far is creativity, I never thought of making a customizable sprites so it can make animations or change the color and skin. This will be very good for the future because with amounts of creativity I can do I can make a full custom game.
+Skill 1. A Skill I gathered so far is attention to detail because when I was looking at the keybinds I noticed the syntax of the keybinds it was missing something.
+So I payed attention to whats missing I fortunatly I find the issue and it was missing another part of the code.
 
-Skill 2. Another skill I have gathered so far is debugging, when I was tinkering I had issues with making a sprite have it's own skin I always noticed how the issue was being made as the skin png itself was missing and so I created it for the skin to appear instead of getting a error.
+Skill 2. Another skill I have gathered so far is debugging, when I was tinkering I had problems making a sprite move thinking it was location based.
+Instead I looked in further I saw that I can use keybinds to move my sprites entirly.
