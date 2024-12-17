@@ -2,9 +2,7 @@
 12/14/24
 
 ## Section 1: My Learning so far:
-Hello My name is Christian Ramos and I am here to talk about what I learned so far for using my tool during this month. I am using this tool Kaboom a game development tool for 
-platformer-style games. With this tool you can make games that can be pixelated or customizable. My learning of it has grown so much about it I have conducted many tests, such as 
-programming AI to move to specific positions within the game. One of the features I’ve learned moving a sprite with a key or making them move to a location for you the player.
+Hello My name is Christian Ramos and I am here to talk about what I learned so far for using my tool during this month. I am using this tool [Kaboom](https://kaboomjs.com/) a game development tool for platformer-style games. With this tool you can make games that can be pixelated or customizable. My learning of it has grown so much about it I have conducted many tests, such as programming AI to move to specific positions within the game. One of the features I’ve learned moving a sprite with a key or making them move to a location for you the player.
 
 ```js
 player.moveTo(x, y)
