@@ -70,7 +70,8 @@ I will go over the two skills I have learned and gained while using Kaboom:
 Skill 1. A Skill I gathered so far is creativity, making a jumpad and a level is something I thought would be challenging but as I saw more and more I used sonic as insperation so 
 I might be able to make my own sonic game and even new characters myself.
 
-Skill 2. Another skill I have gathered so far is debugging, when I did the tinkering I figured out a way to make multiple levels using the mario pyrmid as reference. 
-So I made it so the level can stack the equal signs more and more to extend the level.
+Skill 2. Another skill I have gathered so far is how to learn, when I did the tinkering I was trying to teach myself how to properly make the platform/levels so I remebered that I needed a sprite 
+to load in the code and so I did this for all levels including jumpads.
+
 
 
