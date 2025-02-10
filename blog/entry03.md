@@ -57,6 +57,8 @@ anchor("bot"),
 ```
 
 If the code has a danger will make it so you head to a gameover scene but instead I changed the scene where you respon right away.
+I did not do this alone I used [Paint.net](https://www.getpaint.net/) to assist me with making sprites for the level and also used [Replit](https://www.youtube.com/watch?v=hgReGsh5xVU) to know how to make
+a level.
 
 ## Section 2: My Engineering Design Process:
 At the moment I think I am in the reserching part of this project level 2 like last blog I must research more on how to make properly fixed ai when a ai is attcking you. I must research on more ai programming and also 
