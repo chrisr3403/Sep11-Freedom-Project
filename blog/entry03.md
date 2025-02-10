@@ -44,13 +44,31 @@ What I did was instead of making a sprite I made a boost jumpad with it when I t
 what I did was look at the code for the obsticle and instead of it giving you a game over sign you can make jumpads
 so the player can do a super jump if needed to navigate.
 
+I tinkered with this code
 
-Section 2: My Engineering Design Process:
-At the moment I think I am in the reserching part of this project level 2 overtime I will research more and more on how to make locations more accurate instead of just randomizing my location values. I will make it so my research will progress me to learn my tool further and make it to know new things for games. For now I must research.
+```
+],
+        "^": () => [
+sprite("jumpad"),
+area(),
+anchor("bot"),
+"danger",
+],
+```
 
-Section 3: My Skills on Kaboom So Far.
+If the code has a danger will make it so you head to a gameover scene but instead I changed the scene where you respon right away.
+
+## Section 2: My Engineering Design Process:
+At the moment I think I am in the reserching part of this project level 2 like last blog I must research more on how to make properly fixed ai when a ai is attcking you. I must research on more ai programming and also 
+see what you can do more as a player and also sounds for when you hit a jumppad I want to research on these main things to make a proper level.
+
+## Section 3: My Skills on Kaboom So Far.
 I will go over the two skills I have learned and gained while using Kaboom:
 
-Skill 1. A Skill I gathered so far is creativity, I never thought of making a customizable sprites so it can make animations or change the color and skin. This will be very good for the future because with amounts of creativity I can do I can make a full custom game.
+Skill 1. A Skill I gathered so far is creativity, making a jumpad and a level is something I thought would be challenging but as I saw more and more I used sonic as insperation so 
+I might be able to make my own sonic game and even new characters myself.
 
-Skill 2. Another skill I have gathered so far is debugging, when I was tinkering I had issues with making a sprite have it's own skin I always noticed how the issue was being made as the skin png itself was missing and so I created it for the skin to appear instead of getting a error.
+Skill 2. Another skill I have gathered so far is debugging, when I did the tinkering I figured out a way to make multiple levels using the mario pyrmid as reference. 
+So I made it so the level can stack the equal signs more and more to extend the level.
+
+
