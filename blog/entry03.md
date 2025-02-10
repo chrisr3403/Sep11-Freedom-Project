@@ -1,16 +1,21 @@
-Entry 1
-11/3/24
+Entry 3
+2/9/25
+
 Section 1: What I learned So Far:
 Hello My name is Christian Ramos and I am here to talk about what I learned so far for using my tool during this month. I am using this tool Kaboom a game development tool for platformer-style games. With this tool you can make games that can be pixelated or customizable. My learning of it has grown so much about it I have conducted many tests, such as making levels. One of the features I’ve learned is creating certain levels for the player and enemies.
 
-const bean = add([ sprite("bean", {// start with animation "idle" anim: "idle", }),])
-This code is used for things such as idle animations in fact I am best known for doing idle animations for games and such. The idle makes it so the AI is in it's idle pose or static pose rather then just moving at all. The original code will run for the AI or player to be a idle like this:
+A level is a static type of mesh or a brush mesh for players to walk on it is the thing to make a mission or objective to work in certain parts.
+For example if you load in a level it will make it so you the player can walk on it levels are also very useful for platformer games.
 
-image
+I used a sprite from sonic sky sanctuary as a example down below.
 
-The idle makes it stay in one position or in most cases a animation while staying idle.
+![image](https://github.com/user-attachments/assets/8d6ecfaf-fb22-4873-8051-9024af92367c)
 
-So what I tinkered with this code so far:
+So what you are wondering how I did this what did I tinker to make the sky sanctuary block function in the game? I will share all this in what I tinkered so far.
+
+## Section 2: So what I tinkered with this code so far:
+
+loadSprite("grass", "/sprites/grass.png");
 
 const bean = add([ sprite("bean", {// start with animation "run" anim: "run", }),])
 ^ instead of it taking the idle it's doing the running animation, when running its triggered when the player or AI wants to do that animation. So it any case the running will go into a forward direction and not stay static idle which is good in most game scenario.
