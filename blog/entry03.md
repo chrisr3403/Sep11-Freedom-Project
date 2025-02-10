@@ -1,7 +1,7 @@
 Entry 3
 2/9/25
 
-Section 1: What I learned So Far:
+## Section 1: What I learned So Far:
 Hello My name is Christian Ramos and I am here to talk about what I learned so far for using my tool during this month. I am using this tool Kaboom a game development tool for platformer-style games. With this tool you can make games that can be pixelated or customizable. My learning of it has grown so much about it I have conducted many tests, such as making levels. One of the features I’ve learned is creating certain levels for the player and enemies.
 
 A level is a static type of mesh or a brush mesh for players to walk on it is the thing to make a mission or objective to work in certain parts.
@@ -15,48 +15,36 @@ So what you are wondering how I did this what did I tinker to make the sky sanct
 
 ## Section 2: So what I tinkered with this code so far:
 
-loadSprite("grass", "/sprites/grass.png");
+loadSprite("skySanctuary.Low", "/sprites/SkySanctuaryLow.png");
+^ this is the started up code this code registers the sprite of skysanctuary block so it may register in game.
+A follow up to this is the code must be registered like I said before so to do this is the code below.
+```
+setGravity(2400);
 
-const bean = add([ sprite("bean", {// start with animation "run" anim: "run", }),])
-^ instead of it taking the idle it's doing the running animation, when running its triggered when the player or AI wants to do that animation. So it any case the running will go into a forward direction and not stay static idle which is good in most game scenario.
+const level = addLevel([
+    "=",
+```
+Fun fact we have learned this recently with javascript for the mario pyrmid this is very similar to that matter.
+const level register the level provided here is a preview down below.
 
-I started learning how to do animations due to creating AI and player cosmetics I realized I need to make the AI move at points of interest. So I looked through Kaboom and found the code add:
+![20250209_195034](https://github.com/user-attachments/assets/25d5dba4-04d4-47b6-b5af-02b2b8c4383c)
 
-([sprite("ghosty"),pos(x, y),])
-Here a example that shows in random points in time a sprite or a AI will move in any direction as shown in the video below:
+if increasing the add level symbol `"=",` to `"========",` the level will increase which I will use for my platformer 
 
-2024-12-02 21-29-11
+Here is the result below.
 
-But In my own tinkering instead of it going to random locations on a area the AI/Sprite must go to a location I forced it to go to. Instead of the blank positioning I applied numbers on the grid to simulate how I want the player or sprite to spawn as it shows here in the code down below first the player location. Here a example that I tinkered below:
+![image](https://github.com/user-attachments/assets/a3d93f05-ad8e-4538-90e2-97acfac0c89c)
 
-const player = add([
-	sprite("optimus"),   
-	pos(50, 50),    
-	anchor("center")
-2024-12-0305-42-00-ezgif com-video-to-gif-converter
+With the level blocks you can also make traps of some sort a spike trap.
+Spike traps or traps or obsticles in general makes a full level playable for players to avoid.
+What I did was instead of making a sprite I made a boost jumpad with it when I tinkered with it.
 
-In this short video it demonstrates how the sprite itself is moving which can be useful for moving a sprite or a player to get to level 2 or final level in a game which I myself have replicated multiple times which is very easy when switching the values of the location.
+![20250209_201155](https://github.com/user-attachments/assets/3213b9c6-910f-4bdc-b259-c838fabb6573)
 
-During the location test I have done so far I got the picture on locations using the position which is very hard to do but it manage. It still needs room for improvement as the location must be accurate and for AI movement. My result was at first nothing happened but realized the AI was off the map. I would advice to keep on tinkering with the locations for you to know how to give a understanding on how they work.
+what I did was look at the code for the obsticle and instead of it giving you a game over sign you can make jumpads
+so the player can do a super jump if needed to navigate.
 
-Another part I tinkered with my Kaboom platformer is the skin of a sprite. This will be very useful in future game updates. What is it that I tinkered with? This code for the sprite / Load a sprite asset from "sprites/bean.png", with the name "bean"
 
-loadSprite("optimus", "104-1047414_optimus-prime-pixel-art-transformers-optimus-prime-clipart.png")
-This by default will load in a sprite being registered by a jpeg, png or even a gif. The code can also be connected to the animations if you want a character to have a running pose or a standing pose. Here is a preview of the tinkering on how to make the skin/sprite you want. (this goes for AI sprites too.)
-
-image
-
-Image outcome image
-
-You need to also create your own png file so the sprite can be able to register it's skin.
-
-image
-
-Without the skin it will appear as a error on your screen make sure everything on it. Everything must be registered also to the sprite name as well Example being: sprite("optimus") the sprite must register the name "optimus" for the sprite character to load.
-
-I used Replit to give me a reference on how to make the sprites load in as the person in the video used replit and did the same method to make the images as sprites by the code of:
-
-loadSprite("name", "name.png")
 Section 2: My Engineering Design Process:
 At the moment I think I am in the reserching part of this project level 2 overtime I will research more and more on how to make locations more accurate instead of just randomizing my location values. I will make it so my research will progress me to learn my tool further and make it to know new things for games. For now I must research.
 
