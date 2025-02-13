@@ -63,7 +63,7 @@ As of right now I am changing it to be more of a actual jumpad instead of respaw
 If the code has a danger will make it so you head to a gameover scene but instead I changed the scene where you respon right away.
 I am trying to tinker instead of it being "damage" it has a "boost" value instead so I can make so it's not a obsticle but rather a actual functioning jumpad!
 
-I used [Paint.net](https://www.getpaint.net/) to assist me with making sprites for the level and also continue to use [freeCodeCamp]([https://www.bing.com/videos/riverview/relatedvideo?&q=kaboom+tutorial&&mid=E2CA825874E2F76A8E41E2CA825874E2F76A8E41&mmscn=mtsc&aps=1181&FORM=VRDGAR](https://www.youtube.com/watch?v=4OaHB0JbJDI)) and used [Replit](https://www.youtube.com/watch?v=hgReGsh5xVU) to know how to make
+I used [Paint.net](https://www.getpaint.net/) to assist me with making sprites for the level and also continue to use [freeCodeCamp]([https://www.bing.com/videos/riverview/relatedvideo?&q=kaboom+tutorial&&mid=E2CA825874E2F76A8E41E2CA825874E2F76A8E41&mmscn=mtsc&aps=1181&FORM=VRDGAR) and used [Replit](https://www.youtube.com/watch?v=hgReGsh5xVU) to know how to make
 a level.
 
 ## Section 2: My Engineering Design Process:
