@@ -29,7 +29,7 @@ const level register the level provided here is a preview down below.
 
 ![20250209_195034](https://github.com/user-attachments/assets/25d5dba4-04d4-47b6-b5af-02b2b8c4383c)
 
-if increasing the add level symbol `"=",` to `"========",` the level will increase which I will use for my platformer 
+So I did some tinkoring if I increae the add level symbol `"=",` to `"========",` the level will increase which I will use for my platformer.
 
 Here is the result below.
 
@@ -55,9 +55,15 @@ anchor("bot"),
 "danger",
 ],
 ```
+Orignally this was a trap for spikes but what I really tinkered here is the symbol and sprite the symbol will make it so the jumpad respawns you to start.
+As of right now I am changing it to be more of a actual jumpad instead of respawning you.
+
+![20250213_100619](https://github.com/user-attachments/assets/b6617734-676a-4018-aa07-0d02274943ef)
 
 If the code has a danger will make it so you head to a gameover scene but instead I changed the scene where you respon right away.
-I did not do this alone I used [Paint.net](https://www.getpaint.net/) to assist me with making sprites for the level and also used [Replit](https://www.youtube.com/watch?v=hgReGsh5xVU) to know how to make
+I am trying to tinker instead of it being "damage" it has a "boost" value instead so I can make so it's not a obsticle but rather a actual functioning jumpad!
+
+I used [Paint.net](https://www.getpaint.net/) to assist me with making sprites for the level and also continue to use [Kaboom](https://www.bing.com/videos/riverview/relatedvideo?&q=kaboom+tutorial&&mid=E2CA825874E2F76A8E41E2CA825874E2F76A8E41&mmscn=mtsc&aps=1181&FORM=VRDGAR) and used [Replit](https://www.youtube.com/watch?v=hgReGsh5xVU) to know how to make
 a level.
 
 ## Section 2: My Engineering Design Process:
