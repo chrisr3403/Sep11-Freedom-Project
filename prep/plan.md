@@ -6,6 +6,7 @@
 ---
 
 ## Timeline
+for my timeline I will first make a level then start on finalizing sprites with animations and movement then start placing game mechanics around the level.
 
 #### MVP
 
