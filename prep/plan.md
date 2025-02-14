@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Kaboom
+## Product: Custom Platformer Sonic Game
 
 ---
 
@@ -9,13 +9,13 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [ ] Task using kaboom.js to make a fully working platformer and use videos as reference to make a working platformer. Also fix sprite animations.(deadline: 5/7)
+  - [ ] Subtask use both kaboom.js and w3schools to make the background and also make the levels work.(deadline: 5/8)
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] Task: Use kaboom.js to make it so you can have different bosses and power ups.
+  - [ ] Subtask make a cosmetic color and skin changer for the sprite character if you don't want to play sonic using JS and DOM code.
 
 
 <!-- EXAMPLE
