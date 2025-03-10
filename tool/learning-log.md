@@ -77,7 +77,7 @@ keyboard to see how will they all function all the same!
 * Hello and welcome to the learning log entry nine! My name is Christian Ramos and I am here to discuss my learning on how to do move a sprite in kaboom.js!
   from my knowledge so far to move a sprite using your keybinds is often needed if you want to play right?
   Without movement how will you do things in the game or even play!
-  Thats why I am here to showcase my own code on how to move your sprites in a kaboom!
+  Thats why I am here to showcase my own code on how to move your sprite character in a kaboom with a click of a button!
 
   
  ```js
