@@ -72,6 +72,40 @@ Though I did have some challenges for this such as pin pointing where I want the
 Pin pointing these locations is hard if you want exact locations it's a hit or miss to make the location you want.
 My question for locations is: How will we be able to pin point locatiosn correctly? Will it be easy to do? for what I will try next is moving a sprite manually using keys on the 
 keyboard to see how will they all function all the same!
+
+### 3/10/2025
+* Hello and welcome to the learning log entry nine! My name is Christian Ramos and I am here to discuss my learning on how to do move a sprite in kaboom.js!
+  from my knowledge so far to move a sprite using your keybinds is often needed if you want to play right?
+  Without movement how will you do things in the game or even play!
+  Thats why I am here to showcase my own code on how to move your sprites in a kaboom!
+
+  
+ ```js
+onKeyDown("left", () => {
+    player.move(-SPEED, 2);
+    player.flipX = true;
+    // .play() will reset to the first frame of the anim, so we want to make sure it only runs when the current animation is not "run"
+    if (player.isGrounded() && player.curAnim() !== "run") {
+        player.play("run");
+    }
+});
+
+onKeyDown("right", () => {
+    player.move(SPEED, 2);
+    player.flipX = false;
+    if (player.isGrounded() && player.curAnim() !== "run") {
+        player.play("run");
+    }
+});
+```
+What I did is look through my tool [kaboom](https://kaboomjs.com/) and also used this video as reference [CodeWithHarry](https://www.bing.com/videos/riverview/relatedvideo?&q=kaboom.js+game&&mid=9C03EE310C6A6B1F4FFA9C03EE310C6A6B1F4FFA&mmscn=mtsc&aps=0&FORM=VRDGAR_) I looked in both to see how do you move how does the function of a player is able to move?
+What I did first is tried the code above it was the correct code I needed but 1 I did not try a key to see nor did I set a key up. I set it to key down right and I was able to move right and the
+animation is triggered by this part of code `playerplay("run") and (player.isGrounded() && player.curAnim() !== "run")` - this part is where a run animation is triggered to move to the right. 
+A ah moment was that I was missing a value or a part of the code which was connected to the speed this code is: `const SPEED = 1020;` this speed defines the movement speed without this
+code the speed won't be defined and it will give you a error. My progress on it was very fast since all movement can be triggered with a click of a button.
+My question is how does the key value get referenced to run? Why does the speed need to be refernecd when it also comes to animations.
+Next will be my animations and actually going over the animation sets of what a sprite can do this will include sprite changing animations as well!
+
   
 
 <!-- 
