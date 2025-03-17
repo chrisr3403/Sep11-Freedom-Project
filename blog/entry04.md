@@ -88,9 +88,9 @@ and over time I will gain more information in kaboom and over time I will go on 
 ## Section 3: My Skills on Kaboom So Far.
 I will go over the two skills I have learned and gained while using Kaboom:
 
-Skill 1. A Skill I gathered so far is attention to detail because when I was looking at the keybinds I noticed the syntax of the keybinds it was missing something.
-So I payed attention to whats missing I fortunatly I find the issue and it was missing another part of the code.
+Skill 1. A Skill I gathered so far is creativity because when I was making the platformer game it looked to bland and it needed something that will be good and valuable.
+So I added rings for others to collect and destroy for score to give the game a "alive" experence.
 
-Skill 2. Another skill I have gathered so far is debugging, when I was tinkering I had problems making a sprite move thinking it was location based.
-Instead I looked in further I saw that I can use keybinds to move my sprites entirly.
+Skill 2. Another skill I have gathered so far is debugging, when I was tinkering I had looked on how the score was tied to the ring. After looking I noticed the class 
+must be defined based on the ring and each ring you take boosts the score each time.
 
