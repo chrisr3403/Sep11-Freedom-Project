@@ -19,11 +19,10 @@ Just like my entry before this one a sprite is created by the code above and als
 
 So what I tinkered with this code so far:
 
-``` js
+
+
+```js
 loadSprite("ring", "/sprites/Ring.png");
-
-![image](https://github.com/user-attachments/assets/8549c4f5-8409-45d9-8f77-ded527e6e4df)
-
 
 "$": () => [
             sprite("ring"),
@@ -31,14 +30,24 @@ loadSprite("ring", "/sprites/Ring.png");
             anchor("bot"),
             "ring",
         ],
-
-
 ```
 
-^ instead of the x y and I did the location where I want the sprite of my player to be at. This can be useful for checkpoints, like for example let's say you failed a level the 
-location can be triggered so you move to that location instead similar to giving locations to a ghost sprite.
+![image](https://github.com/user-attachments/assets/95c50fd4-1e99-4fae-a092-b7c8d67cd5e2)
+Making the sprite load to the key word of "ring" to load the png of the ring pickup.
+Then I made a code for the action to pickup the ring is vaild follwing the code below.
 
-A example here from the video that I did.
+
+``` js
+
+player.onCollide("ring", (ring) => {
+    destroy(ring);
+});
+```
+
+^ this code is very new this code shows a result on when a player collides with the ring sprite.
+when the player collides with the sprite it starts to take it as either a score or the ring is just gone or destroyed.
+
+A example here from the video that I did:
 
 ![2024-12-16 13-11-22](https://github.com/user-attachments/assets/b6da3840-bcfd-48ed-85ca-3408a8c2bf31)
 
