@@ -2,7 +2,7 @@
 3/15/25
 
 ## Section 1: My Learning so far:
-Hello My name is Christian Ramos and I am here to talk about what I learned so far for using my tool during this month. I am using this tool [Kaboom](https://kaboomjs.com/) a game development tool for platformer-style games. With this tool you can make games that can be pixelated or customizable. My learning of it has exstended throughout the year I have conducted a lot tests, such as collecting items like rings from sonic or 
+Hello My name is Christian Ramos and I am here to talk about what I learned so far for using my tool during this month. I am using this tool [Kaboom](https://kaboomjs.com/) a game development tool for platformer-style games. With this tool you can make games that can be pixelated or customizable. My learning of it has extended throughout the year I have conducted a lot tests, such as collecting items like rings from sonic or 
 basically objective things for score to collect and increase your points in a game.
 
 ```js
