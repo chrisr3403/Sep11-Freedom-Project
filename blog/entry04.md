@@ -76,13 +76,14 @@ player.onCollide("ring", () => {
     })
 ```
 I made it so it is linked with the ring and when linked to the ring each time a player destroys a ring the score shall increase each time.
+and the score value is set at zero and each time you collect a ring the score value increases with the code of `score.value += 1` makes the score increase with the ring class.
+
 And with that I also used a reference from videos such as [Replit](https://www.bing.com/videos/riverview/relatedvideo?&q=kaboom.js+tutorial&&mid=E2CA825874E2F76A8E41E2CA825874E2F76A8E41&&FORM=VRDGAR) and 
 [Shubham Gupta (Atom-8)](https://www.youtube.com/watch?v=xvTMVGnV660) amazing references on how to destroy pickups and make a score for these pickups.
 
-
 ## Section 2: My Engineering Design Process:
-Just like my last blog I am still at the reserching part of this project level 2 still I will continue to research so I can continue with my project 
-but so far I am at the reserching part my stage over time will hopefully increase based on my knowledge for my projects and Kaboom.
+I am at my reserching part and probably even at its final stage of it. I want to streach my research so I can continue more of my project 
+and over time I will gain more information in kaboom and over time I will go on to the next step of my research in the next blog.
 
 ## Section 3: My Skills on Kaboom So Far.
 I will go over the two skills I have learned and gained while using Kaboom:
@@ -92,4 +93,4 @@ So I payed attention to whats missing I fortunatly I find the issue and it was m
 
 Skill 2. Another skill I have gathered so far is debugging, when I was tinkering I had problems making a sprite move thinking it was location based.
 Instead I looked in further I saw that I can use keybinds to move my sprites entirly.
-e
+
