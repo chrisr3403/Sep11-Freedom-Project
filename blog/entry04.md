@@ -51,11 +51,9 @@ A example here from the video that I did:
 
 ![2025-03-16 21-36-42](https://github.com/user-attachments/assets/a723c90a-5f51-44a9-9252-1f946493b3f2)
 
-I started to learn more on how to make a player move where I want it which is something I can takeaway from this.
+I started to learn more on how objective/pickups work I was thinking it had something to do with the player destroying a item when coming into contact with it.
 
-Another part I tinkered with was moving your character manually.
-For this it requires keys on your keyboard so you will be able to move the character you play as.
-From kaboom here is a example:
+Another part I tinkered with was trying to make a like jumppad of some sorts
 
 ![image](https://github.com/user-attachments/assets/b6a0247c-1429-4331-9265-5d21bab2b594)
 
