@@ -49,7 +49,7 @@ when the player collides with the sprite it starts to take it as either a score 
 
 A example here from the video that I did:
 
-![2024-12-16 13-11-22](https://github.com/user-attachments/assets/b6da3840-bcfd-48ed-85ca-3408a8c2bf31)
+![2025-03-16 21-36-42](https://github.com/user-attachments/assets/a723c90a-5f51-44a9-9252-1f946493b3f2)
 
 I started to learn more on how to make a player move where I want it which is something I can takeaway from this.
 
