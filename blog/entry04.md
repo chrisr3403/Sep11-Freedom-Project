@@ -6,15 +6,33 @@ Hello My name is Christian Ramos and I am here to talk about what I learned so f
 basically objective things for score to collect and increase your points in a game.
 
 ```js
-player.moveTo(x, y)
+"+": () => [
+            sprite("example"),
+            area(),
+            anchor("bot"),
+            "example",
+        ],
 ```
-This is a example of one of my learning. Setting a player or the sprite to move on it's own. Think of a cutscene in a game you want to make a cutscene that makes the player run to the 
-cutscene in the game or approching a part of the map like a reach point.
+This is a example of the first step on how to make a pickup or item. A sprite must be made before making anything else.
+Just like my entry before this one a sprite is created by the code above and also to make the sprite visble you require this set of code
+`loadSprite("example", "/sprites/example.png");` which loads the png of the sprite.
 
 So what I tinkered with this code so far:
 
 ``` js
-player.moveTo(300, 200)
+loadSprite("ring", "/sprites/Ring.png");
+
+![image](https://github.com/user-attachments/assets/8549c4f5-8409-45d9-8f77-ded527e6e4df)
+
+
+"$": () => [
+            sprite("ring"),
+            area(),
+            anchor("bot"),
+            "ring",
+        ],
+
+
 ```
 
 ^ instead of the x y and I did the location where I want the sprite of my player to be at. This can be useful for checkpoints, like for example let's say you failed a level the 
