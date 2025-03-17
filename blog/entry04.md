@@ -31,6 +31,7 @@ loadSprite("ring", "/sprites/Ring.png");
 ```
 
 ![image](https://github.com/user-attachments/assets/95c50fd4-1e99-4fae-a092-b7c8d67cd5e2)
+
 Making the sprite load to the key word of "ring" to load the png of the ring pickup.
 Then I made a code for the action to pickup the ring is vaild follwing the code below.
 
