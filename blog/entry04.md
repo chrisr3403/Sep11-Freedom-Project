@@ -66,6 +66,17 @@ const score = add([
 ])
 ```
 this tracks all the ring count anytime you destroy a ring the score number changes from zero to the amounts of pickups you do.
+The score will show up on your side screen when making a code like this:
+
+```js
+player.onCollide("ring", () => {
+        score.value += 1
+        score.text = "Score:" + score.value
+    })
+```
+I made it so it is linked with the ring and when linked to the ring each time a player destroys a ring the score shall increase each time.
+And with that I also used a reference from videos such as [Replit](https://www.bing.com/videos/riverview/relatedvideo?&q=kaboom.js+tutorial&&mid=E2CA825874E2F76A8E41E2CA825874E2F76A8E41&&FORM=VRDGAR) and 
+[Shubham Gupta (Atom-8)](https://www.youtube.com/watch?v=xvTMVGnV660) amazing references on how to destroy pickups and make a score for these pickups.
 
 
 ## Section 2: My Engineering Design Process:
@@ -80,3 +91,4 @@ So I payed attention to whats missing I fortunatly I find the issue and it was m
 
 Skill 2. Another skill I have gathered so far is debugging, when I was tinkering I had problems making a sprite move thinking it was location based.
 Instead I looked in further I saw that I can use keybinds to move my sprites entirly.
+e
