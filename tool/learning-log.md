@@ -131,10 +131,12 @@ from 0 it will play a animation from a picture sprite a example is below:
 
 ![Screenshot 2025-03-20 100420](https://github.com/user-attachments/assets/97bc6b13-f292-49c7-9ecc-37896710377d)
 
-In the first frame a idle animation plays which is the value of 0 which goes from 3.
+In the first frame a idle animation plays which is the value of 0 which goes from 3. 
 Each animation is triggered like I said before by a key or if you want it to loop you can.
 I tried the frame for it to fit in each part of the image only for it to be out of the image box.
 My challeneges was the image itself due to the fact that the image must be right on the frame. So what I did was tweak the frame and used a better image to put it better in frame.
+My questions are how do sprites get configured so a proper animation? why do sprites go to 1 frame to another? Well the next thing I will try and talk about is sprites in general.
+And for the things I used was a video from [freecodecamp](https://www.bing.com/videos/riverview/relatedvideo?&q=kaboom.js+tutorial+animations&&mid=6A99D7A7E5AE3EDBAACB6A99D7A7E5AE3EDBAACB&mmscn=mtsc&aps=0&FORM=VRDGAR) which shows how animations are runned and this part of [kaboom](https://kaboomjs.com/#get) which has the animations.
 
 
 <!-- 
