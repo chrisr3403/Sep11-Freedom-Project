@@ -112,7 +112,7 @@ Next will be my animations and actually going over the animation sets of what a 
   Here is a example code I used from kaboom
 
   ```js 
-  loadSprite("bean", "bean.png", {
+  loadSprite("Sonic", "sonic.png", {
     sliceX: 4,
     sliceY: 1,
     anims: {
@@ -127,11 +127,15 @@ Next will be my animations and actually going over the animation sets of what a 
     },
   ```
 This code for animations tells you how animations play let start with the frame. What is frame? Frame is the value from the code that says `run: { from: 0 to:3,},`
-from 0 it will play a animation from a picture sprite a example is below.
+from 0 it will play a animation from a picture sprite a example is below:
 
 ![Screenshot 2025-03-20 100420](https://github.com/user-attachments/assets/97bc6b13-f292-49c7-9ecc-37896710377d)
 
- 
+In the first frame a idle animation plays which is the value of 0 which goes from 3.
+Each animation is triggered like I said before by a key or if you want it to loop you can.
+I tried the frame for it to fit in each part of the image only for it to be out of the image box.
+My challeneges was the image itself due to the fact that the image must be right on the frame. So what I did was tweak the frame and used a better image to put it better in frame.
+
 
 <!-- 
 * Links you used today (websites, videos, etc)
