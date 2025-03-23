@@ -111,7 +111,7 @@ Next will be my animations and actually going over the animation sets of what a 
   in my progress on kaboom I want to go over the things I have learned so far such as animations! Animations is all based on movement of a sprite or character.
   Here is a example code I used from kaboom
 
-  ```
+  ```js 
   loadSprite("bean", "bean.png", {
     sliceX: 4,
     sliceY: 1,
@@ -125,10 +125,13 @@ Next will be my animations and actually going over the animation sets of what a 
             to: 3,
         },
     },
-})
-```
-  
-  
+  ```
+This code for animations tells you how animations play let start with the frame. What is frame? Frame is the value from the code that says `run: { from: 0 to:3,},`
+from 0 it will play a animation from a picture sprite a example is below.
+
+![Screenshot 2025-03-20 100420](https://github.com/user-attachments/assets/97bc6b13-f292-49c7-9ecc-37896710377d)
+
+ 
 
 <!-- 
 * Links you used today (websites, videos, etc)
