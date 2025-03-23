@@ -109,6 +109,25 @@ Next will be my animations and actually going over the animation sets of what a 
 ### 3/22/2025
 * Hello and welcome to the learning log entry nine! My name is Christian Ramos and I am here to discuss my learning on how to do move a sprite in kaboom.js!
   in my progress on kaboom I want to go over the things I have learned so far such as animations! Animations is all based on movement of a sprite or character.
+  Here is a example code I used from kaboom
+
+  ```
+  loadSprite("bean", "bean.png", {
+    sliceX: 4,
+    sliceY: 1,
+    anims: {
+        run: {
+            from: 0,
+            to: 3,
+        },
+        jump: {
+            from: 3,
+            to: 3,
+        },
+    },
+})
+```
+  
   
 
 <!-- 
