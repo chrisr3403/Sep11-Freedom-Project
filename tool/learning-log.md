@@ -106,6 +106,9 @@ code the speed won't be defined and it will give you a error. My progress on it 
 My question is how does the key value get referenced to run? Why does the speed need to be refernecd when it also comes to animations.
 Next will be my animations and actually going over the animation sets of what a sprite can do this will include sprite changing animations as well!
 
+### 3/22/2025
+* Hello and welcome to the learning log entry nine! My name is Christian Ramos and I am here to discuss my learning on how to do move a sprite in kaboom.js!
+  in my progress on kaboom I want to go over the things I have learned so far such as animations! Animations is all based on movement of a sprite or character.
   
 
 <!-- 
