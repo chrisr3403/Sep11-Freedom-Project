@@ -1,4 +1,4 @@
-## Entry 4
+## Entry 5
 3/15/25
 
 ## Section 1: My Learning so far:
@@ -36,20 +36,34 @@ Then what I did is rigged the scene to start which gets referenced at the end of
 So what I tinkered with this code so far:
 
 ```js
-loadSprite("ring", "/sprites/Ring.png");
+scene("start", () => {
+    play("MenuTheme")
 
-"$": () => [
-            sprite("ring"),
-            area(),
-            anchor("bot"),
-            "ring",
-        ],
+	add([
+		text("Eat All"),
+		pos(center()),
+		scale(2),
+		anchor("center"),
+	])
+
+	add([
+		sprite("Menu"),
+		pos(center()),
+		scale(2),
+		anchor("center"),
+	])
+
+    onKeyPress((space) => go("game"))
+
+})
 ```
 
 ![image](https://github.com/user-attachments/assets/49606dd0-18ed-436a-81ba-fd761cb68833)
 
 Once you load into kaboom, A screen will appear like above showcasing sonic screen as a example.
 To head in game you have to press space bar to play!
+
+At first It did not work because I wrote the code wrong.
 
 
 ``` js
