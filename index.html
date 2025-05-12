@@ -850,7 +850,6 @@ loadSprite("FireBall", "sprites/Fire.png",
 
 	add([
 	pos(enemy.pos),
-    play("shoot")
 	sprite("FireBall"),           // Use your loaded sprite
 	scale(1.5),                 // Optional: scale down the bullet
 	area(),
@@ -897,6 +896,7 @@ enemy.onStateUpdate("move", () => {
 player.onCollide("bullet", (bullet) => {
 	destroy(bullet)
 	destroy(player)
+    play("shoot")
     go("lose")
 
 })
