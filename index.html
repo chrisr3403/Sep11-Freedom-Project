@@ -846,9 +846,11 @@ loadSprite("FireBall", "sprites/Fire.png",
 
 });
 
+    loadSound("shoot", "music/explosion-101soundboards.mp3")
 
 	add([
 	pos(enemy.pos),
+    play("shoot")
 	sprite("FireBall"),           // Use your loaded sprite
 	scale(1.5),                 // Optional: scale down the bullet
 	area(),
@@ -896,7 +898,7 @@ player.onCollide("bullet", (bullet) => {
 	destroy(bullet)
 	destroy(player)
     go("lose")
-	addKaboom(bullet.pos)
+
 })
 
 // Register input handlers & movement
