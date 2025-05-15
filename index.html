@@ -47,7 +47,6 @@ scene("start", () => {
 		scale(1),
 		anchor("center"),
 	])
-
     onKeyPress(() => go("game"))
 })
 
@@ -337,7 +336,7 @@ const LEVELS = [
     },
 }
 
-loadSound("Sky Sanctuary act 1", "music/217 Death Egg Zone ~ Act 1.mp3",)
+loadSound("Sky Sanctuary act 1", "music/Mecha Green Hill Act 1.mp3",)
 
 // (This might not play until user input due to browser policy)
 const music = play("Sky Sanctuary act 1", {
@@ -648,32 +647,70 @@ loadSprite("SuperSonic", "sprites/SuperSonicV5.png",
         },
 
      });
-     loadSprite("Tails", "sprites/Tails-Miles_Prower.png",
+     loadSprite("Tails", "sprites/Tails.png",
 
         {
-            sliceX: 14,
+            sliceX: 10,
             // Define animations
             anims: {
                 "idle": {
                     // Starts from frame 0, ends at frame 3
                     from:0,
-                    to: 3,
+                    to: 4,
                     height:30,
                     width: 50,
                     // Frame per second
-                    speed: 1,
+                    speed: 20,
                     loop: true,
                 },
                 "run": {
-                    from:6,
+                    from:5,
+                    to: 8,
+                    speed: 20,
+                    loop: true,
+                },
+                // This animation only has 1 frame
+                "jump": {
+                    from:9,
+                    to: 9,
+                    speed: 20,
+                    loop: true,
+                },
+                "super": {
+                from:8,
+                to: 8,
+                speed: 30,
+                loop: false,
+        },
+    },
+});
+
+    loadSprite("Amy", "sprites/AmyV6.png",
+
+        {
+            sliceX: 15.2,
+            // Define animations
+            anims: {
+                "idle": {
+                    // Starts from frame 0, ends at frame 3
+                    from:0,
+                    to: 2,
+                    height:30,
+                    width: 50,
+                    // Frame per second
+                    speed: 20,
+                    loop: true,
+                },
+                "run": {
+                    from:8,
                     to: 12,
-                    speed: 15,
-                    loop: false,
+                    speed: 20,
+                    loop: true,
                 },
                 // This animation only has 1 frame
                 "jump": {
                     from:4,
-                    to: 5,
+                    to: 7,
                     speed: 20,
                     loop: true,
                 },
@@ -685,7 +722,6 @@ loadSprite("SuperSonic", "sprites/SuperSonicV5.png",
         },
 
     },
-
  });
 
         function createParticleEffect(playerPos) {
@@ -706,6 +742,12 @@ loadSprite("SuperSonic", "sprites/SuperSonicV5.png",
 
     function SuperSonicSprite() {
     player.use(sprite("SuperSonic"));
+    player.scale = vec2(1.5)
+
+}
+
+ function AmySprite() {
+    player.use(sprite("Amy"));
     player.scale = vec2(1.5)
 
 }
@@ -782,10 +824,19 @@ loadSprite("SuperSonic", "sprites/SuperSonicV5.png",
 
          onKeyPress("2", () => {
             MilesSprite();
+            setGravity(1900);
             player.play("idle");
             play("Swap")
             scale(-100)
         });
+
+         onKeyPress("4", () => {
+            AmySprite();
+            setGravity(1700);
+            play("Swap")
+            player.play("idle");
+        });
+
 
     const getInfo = () =>
     `
