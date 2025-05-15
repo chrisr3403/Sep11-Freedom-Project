@@ -220,7 +220,7 @@ const LEVELS = [
         "                           ",
 		"                           ",
 		"                           ",
-		" ^$$$    $$$   ;;    ^    $$$   ?  $$$ ? $$$    ;;;;;;;;;;;;  @",
+		" $$$    $$$   ;;        $$$   ?  $$$ ? $$$    ;;;;;;;;;;;;  @",
 "======================================================================="
 	],
 ]
@@ -685,45 +685,6 @@ loadSprite("SuperSonic", "sprites/SuperSonicV5.png",
     },
 });
 
-    loadSprite("Amy", "sprites/AmyV6.png",
-
-        {
-            sliceX: 15.2,
-            // Define animations
-            anims: {
-                "idle": {
-                    // Starts from frame 0, ends at frame 3
-                    from:0,
-                    to: 2,
-                    height:30,
-                    width: 50,
-                    // Frame per second
-                    speed: 20,
-                    loop: true,
-                },
-                "run": {
-                    from:8,
-                    to: 12,
-                    speed: 20,
-                    loop: true,
-                },
-                // This animation only has 1 frame
-                "jump": {
-                    from:4,
-                    to: 7,
-                    speed: 20,
-                    loop: true,
-                },
-                "super": {
-                from:8,
-                to: 8,
-                speed: 30,
-                loop: false,
-        },
-
-    },
- });
-
         function createParticleEffect(playerPos) {
             const particle = add([
               sprite("sparkle"),
@@ -746,11 +707,6 @@ loadSprite("SuperSonic", "sprites/SuperSonicV5.png",
 
 }
 
- function AmySprite() {
-    player.use(sprite("Amy"));
-    player.scale = vec2(1.5)
-
-}
 
         function KnucklesSprite() {
             player.scale = vec2(1.2)
@@ -824,17 +780,10 @@ loadSprite("SuperSonic", "sprites/SuperSonicV5.png",
 
          onKeyPress("2", () => {
             MilesSprite();
-            setGravity(1900);
+            setGravity(1200);
             player.play("idle");
             play("Swap")
             scale(-100)
-        });
-
-         onKeyPress("4", () => {
-            AmySprite();
-            setGravity(1700);
-            play("Swap")
-            player.play("idle");
         });
 
 
@@ -847,7 +796,7 @@ loadSprite("SuperSonic", "sprites/SuperSonicV5.png",
 loadSprite("MetalBoss", "sprites/MetalSonic_Boss.png",)
 
 const ENEMY_SPEED = 860
-const BULLET_SPEED = 800
+const BULLET_SPEED = 1000
 
 // Add player game object
 
