@@ -400,7 +400,7 @@ onDraw(() => {
 	})
 })
 
-scene("game", ({ levelId, rings } = { levelId: 0, rings: 0 }) => {
+scene("game", ({ levelId,} = { levelId: 0,}) => {
 
 	// add level to scene
 	const level = addLevel(LEVELS[levelId ?? 0], levelConf)
@@ -989,7 +989,6 @@ onKeyDown("down", () => {
 		if (levelId + 1 < LEVELS.length) {
 			go("game", {
 				levelId: levelId + 1,
-				rings: rings,
 			})
 		} else {
 			go("win")
