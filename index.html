@@ -56,7 +56,7 @@ scene("start", () => {
     onKeyPress(() => go("game"))
 })
 
-volume(3);
+volume(1);
 loadSound("Ded", "music/sonicded.mp3")
 loadSound("jump", "music/sonicjump.mp3")
 loadSprite("spike", "sprites/Spikes3.png")
@@ -335,6 +335,7 @@ const LEVELS = [
 			sprite("GIANTRING!"),
 			area({ scale: 0.5 }),
 			anchor("bot"),
+            volume(12),
 			pos(0, -12),
 			offscreen({ hide: true }),
 			"GIANTRING!",
