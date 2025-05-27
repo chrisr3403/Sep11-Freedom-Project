@@ -7,7 +7,9 @@ I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering P
 For my project, I chose to independently study kaboom.js in order to help me make the sonic game I wanted to create!
 
 ## Links
-https://kaboomjs.com/
+
+[Tool](https://kaboomjs.com/)
+
 [Product](https://chrisr3403.github.io/Sep11-Freedom-Project/)
 
 [Presentation](https://docs.google.com/presentation/d/1ESM09V95QiGeMEgr_iqL9z3N4NAP8B7rb2MBb86eFtw/edit?slide=id.g359e87e6a14_0_0#slide=id.g359e87e6a14_0_0)
@@ -15,8 +17,10 @@ https://kaboomjs.com/
 ## Implications
 ##### PROS
 * My First pro is knowing what I wanted to create a platformer based game for you to switch characters collect rings and go to each level!
+* My second pro is I knew where to start in and use the codes I knew and required!
 ##### CONS
-* 
+* My first con is how will I set up the code correctly?
+* Second con how will I fix any code snippets issues syntax errors as multiple of them were appearing?
 
 
 ## Blog
