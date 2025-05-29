@@ -298,6 +298,7 @@ const LEVELS = [
         "&": () => [
             sprite("Cloud"),
             area(),
+            scale
 
         ],
 
@@ -824,7 +825,7 @@ loadSprite("FireBall", "sprites/Fire.png",
 })
 
 enemy.onStateEnter("move", async () => {
-	await wait(1.4)
+	await wait(1.6)
 	enemy.enterState("idle")
 })
 
