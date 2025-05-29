@@ -639,6 +639,13 @@ loadSprite("SuperSonic", "sprites/SuperSonicV5.png",
     },
 });
 
+const Sprite = add([
+    color(255, 50, 500),
+    text("Player: Sonic ", { size: 40 }),
+    pos(25, 100),
+    fixed(),
+]);
+
         function createParticleEffect(playerPos) {
             const particle = add([
               sprite("sparkle"),
@@ -648,38 +655,33 @@ loadSprite("SuperSonic", "sprites/SuperSonicV5.png",
             ]);
           }
 
-          function SonicSprite() {
-            player.scale = vec2(1)
-            player.use(sprite("Sonic"));
-        }
-
-
-
-    function SuperSonicSprite() {
-    player.use(sprite("SuperSonic"));
-    player.scale = vec2(1.5)
+function SonicSprite() {
+player.scale = vec2(1)
+player.use(sprite("Sonic"));
+Sprite.text = "Player: Sonic";
 
 }
+function SuperSonicSprite() {
+player.use(sprite("SuperSonic"));
+player.scale = vec2(1.5)
+Sprite.text = "Player: Super Sonic";
+}
+function KnucklesSprite() {
+player.use(sprite("Knuckles"));
+player.scale = vec2(1.2);
+Sprite.text = "Player: Knuckles";
+}
+function SuperKnucklesSprite() {
+player.scale = vec2(1.2)
+player.use(sprite("SuperKnuckles"));
+Sprite.text = "Player: Super Knuckles";
+}
 
-
-        function KnucklesSprite() {
-            player.scale = vec2(1.2)
-            player.use(sprite("Knuckles"));
-
-
-        }
-        function SuperKnucklesSprite() {
-            player.scale = vec2(1.2)
-            player.use(sprite("SuperKnuckles"));
-
-
-        }
-        function MilesSprite() {
-            player.scale = vec2(1.5)
-            player.use(sprite("Tails"));
-
-
-        }
+function MilesSprite() {
+player.scale = vec2(1.5)
+player.use(sprite("Tails"));
+Sprite.text = "Player: Tails";
+}
 
         loadSound("Swap", "music/SwapChar.mp3",)
         loadSound("SuperTransform", "music/SuperSonicTransForm.mp3",)
