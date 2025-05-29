@@ -640,7 +640,7 @@ loadSprite("SuperSonic", "sprites/SuperSonicV5.png",
 });
 
 const Sprite = add([
-    color(255, 50, 500),
+    color(255, 165, 0),
     text("Player: Sonic ", { size: 40 }),
     pos(25, 100),
     fixed(),
@@ -824,7 +824,7 @@ loadSprite("FireBall", "sprites/Fire.png",
 })
 
 enemy.onStateEnter("move", async () => {
-	await wait(1.5)
+	await wait(1.4)
 	enemy.enterState("idle")
 })
 
