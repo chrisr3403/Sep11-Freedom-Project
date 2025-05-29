@@ -342,8 +342,8 @@ const LEVELS = [
         ],
     },
 }
-
-loadSound("Sky Sanctuary act 1", "music/Mecha Green Hill Act 1.mp3",)
+volume(3)
+loadSound("Sky Sanctuary act 1", "music/1-29 Boss Battle - Big Arms (Cash Cash RMX).mp3",)
 
 onKeyPress("p", () => music.paused = !music.paused)
 
@@ -695,7 +695,7 @@ loadSprite("SuperSonic", "sprites/SuperSonicV5.png",
     onKeyPress("s", () => {
     SuperSonicSprite();
     setGravity(700);
-    scale(1000);
+    scale(1200);
     player.play("super");
 });
 
@@ -708,7 +708,7 @@ loadSprite("SuperSonic", "sprites/SuperSonicV5.png",
         });
 
         onKeyPress("s", () => {
-           SPEED = SPEED =+ 1000
+           SPEED = SPEED =+ 850
         });
 
         onKeyPress("3", () => {
@@ -729,7 +729,7 @@ loadSprite("SuperSonic", "sprites/SuperSonicV5.png",
         });
 
         onKeyPress("k", () => {
-            SPEED = SPEED =+ 1000
+            SPEED = SPEED =+ 850
          });
 
          onKeyPress("2", () => {
