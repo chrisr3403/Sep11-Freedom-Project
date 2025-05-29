@@ -56,7 +56,6 @@ scene("start", () => {
     onKeyPress(() => go("game"))
 })
 
-volume(1);
 loadSound("Ded", "music/sonicded.mp3")
 loadSound("jump", "music/sonicjump.mp3")
 loadSprite("spike", "sprites/Spikes3.png")
@@ -157,7 +156,7 @@ const LEVELS = [
         "                                                                                                                    ",
    "~",  "~                                                                                                                  ",
         "                                                                                                                    ",
-        "                                                                                                                    ",
+        "                                                                                             $|$                       ",
         "~                                                                                             _                      ",
         "                                                                                                                   ",
         "~                                                                                                                                 ",
@@ -167,8 +166,10 @@ const LEVELS = [
         "~                                                                                                                                           ",
         "                                                                                                                                            ",
         "             ?                                                                                                        $      ;   $         @",
-        "                  $$$$     ;    $$    ;    $$   ;     $4      $$$                                                    =======================",
+        "                  $$$$         $$    ;    $$   ;     $4      $$$                                                    =======================",
         "~=======================================================================",
+"&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&",
+
 
    "                                                                                                                                                ",
    "                                                                                                                                                ",
@@ -342,16 +343,15 @@ const LEVELS = [
         ],
     },
 }
-volume(3)
-loadSound("Sky Sanctuary act 1", "music/1-29 Boss Battle - Big Arms (Cash Cash RMX).mp3",)
+loadSound("Sky Sanctuary act 1", "music/48-Act 2 Boss Theme.mp3");
 
-onKeyPress("p", () => music.paused = !music.paused)
+onKeyPress("p", () => music.paused = !music.paused);
 
 const music = play("Sky Sanctuary act 1", {
 	loop: true,
 	paused: false,
-})
-
+	volume: 0.3 // Set volume from 0.0 (silent) to 1.0 (max)
+});
 
 
 scene("game", ({ levelId,} = { levelId: 0,}) => {
@@ -749,7 +749,7 @@ loadSprite("SuperSonic", "sprites/SuperSonicV5.png",
 
 loadSprite("MetalBoss", "sprites/MetalSonic_Boss.png",)
 
-const ENEMY_SPEED = 860
+const ENEMY_SPEED = 900
 const BULLET_SPEED = 1000
 
 // Add player game object
@@ -822,7 +822,7 @@ loadSprite("FireBall", "sprites/Fire.png",
 })
 
 enemy.onStateEnter("move", async () => {
-	await wait(2)
+	await wait(1.5)
 	enemy.enterState("idle")
 })
 
