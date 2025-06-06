@@ -4,7 +4,7 @@
 ## Section 1: My Learning so far:
 Hello My name is Christian Ramos and I am here to talk about my completion of my FP project and everything that I have done for the projects.
 Everything that ive done from making levels to bosses to pickups to switch sprites I have presented my project.
-
+Each work I have put in since december on this FP has been amazing and doing the things I liked for make it such as sonic is a great idea!
 What did I present is the question?
 
 What I presented first was the levels for the game as seen down below:
@@ -53,84 +53,43 @@ What I presented first was the levels for the game as seen down below:
 			"platform",
         ],
 ```
+![image](https://github.com/user-attachments/assets/8ed107aa-5fa2-4287-b39a-da18d0449582)
+
 During my presentation I wanted to start off with my level code to present how does it work? Each symbol is linked with the const levelconf.
 The symbol "=" makes the grass lineup following the level conf.
 So to make the floor you also need a sprite as well to load it in.
 
-So what I tinkered with this code so far:
+
+The next thing I presented is my code for the swap sprite:
+## Character swap:
 
 ```js
-scene("start", () => {
-    play("MenuTheme")
+function SonicSprite() {
+player.scale = vec2(1)
+player.use(sprite("Sonic"));
+Sprite.text = "Player: Sonic";
 
-	add([
-		text("Eat All"),
-		pos(center()),
-		scale(2),
-		anchor("center"),
-	])
+}
 
-	add([
-		sprite("Menu"),
-		pos(center()),
-		scale(2),
-		anchor("center"),
-	])
-
-    onKeyPress((space) => go("game"))
-
-})
-```
-
-![image](https://github.com/user-attachments/assets/49606dd0-18ed-436a-81ba-fd761cb68833)
-
-Once you load into kaboom, A screen will appear like above showcasing sonic screen as a example.
-To head in game you have to press space bar to play!
-
-At first It did not work because I wrote the code wrong.
-
-
-``` js
-
-player.onCollide("ring", (ring) => {
-    destroy(ring);
+onKeyPress("s", () => {
+    SuperSonicSprite();
+    setGravity(700);
+    scale(1200);
+    player.play("super");
 });
+
+const Sprite = add([
+    color(255, 165, 0),
+    text("Player: Sonic ", { size: 40 }),
+    pos(25, 100),
+    fixed(),
+]);
 ```
+![chrisr3403 github io_Sep11-Freedom-Project_ and 67 more pages - Personal - Microsoft_ Edge 2025-06-06 06-22-27](https://github.com/user-attachments/assets/c92bfd4a-08c5-42cb-87ce-e4ba9f468988)
 
-^ this code is very new this code shows a result on when a player collides with the ring sprite.
-when the player collides with the sprite it starts to take it as either a score or the ring is just gone or destroyed.
-
-
-
-A example here from the video that I did:
-
-![2025-03-16 21-36-42](https://github.com/user-attachments/assets/a723c90a-5f51-44a9-9252-1f946493b3f2)
-
-I started to learn more on how objective/pickups work I was thinking it had something to do with the player destroying a item when coming into contact with it.
-The more the player comes into contact with the ring the more the score increases each time during the score.
-
-Ah yes score. When destroying a object or pickup you will be able to track score.
-
-what I tinkered so far with score is this first part:
-
-``` js
-const score = add([
-    text("Score: 0"),
-    pos(24, 24),
-    { value: 0 },
-])
-```
-this tracks all the ring count anytime you destroy a ring the score number changes from zero to the amounts of pickups you do.
-The score will show up on your side screen when making a code like this:
-
-```js
-player.onCollide("ring", () => {
-        score.value += 1
-        score.text = "Score:" + score.value
-    })
-```
-I made it so it is linked with the ring and when linked to the ring each time a player destroys a ring the score shall increase each time.
-and the score value is set at zero and each time you collect a ring the score value increases with the code of `score.value += 1` makes the score increase with the ring class.
+With this one I wanted to present so much because of how much detail there is to it!
+swap sprite gives the content way better look! 
+How it functions is that you need a function for the swap sprite and link it to player.use for the player to use that sprite instead of the default one.
 
 And with that I also used a reference from videos such as [Replit](https://www.bing.com/videos/riverview/relatedvideo?&q=kaboom.js+tutorial&&mid=E2CA825874E2F76A8E41E2CA825874E2F76A8E41&&FORM=VRDGAR) and 
 [Shubham Gupta (Atom-8)](https://www.youtube.com/watch?v=xvTMVGnV660) amazing references on how to destroy pickups and make a score for these pickups.
