@@ -91,12 +91,13 @@ With this one I wanted to present so much because of how much detail there is to
 swap sprite gives the content way better look! 
 How it functions is that you need a function for the swap sprite and link it to player.use for the player to use that sprite instead of the default one.
 
+
 And with that I also used a reference from videos such as [Replit](https://www.bing.com/videos/riverview/relatedvideo?&q=kaboom.js+tutorial&&mid=E2CA825874E2F76A8E41E2CA825874E2F76A8E41&&FORM=VRDGAR) and 
 [Shubham Gupta (Atom-8)](https://www.youtube.com/watch?v=xvTMVGnV660) amazing references on how to destroy pickups and make a score for these pickups.
 
 ## Section 2: My Engineering Design Process:
-I am at my reserching part and probably even at its final stage of it. I want to streach my research so I can continue more of my project 
-and over time I will gain more information in kaboom and over time I will go on to the next step of my research in the next blog.
+YES! Even at this time, I am still at my reserching part. I want to continue my research of kaboom.js over the summer and years to come.
+I want to be a game developer one day and I stil feel I need more reserach. I will continue to reserach kaboom.js over time!
 
 ## Section 3: My Skills on Kaboom So Far.
 I will go over the two skills I have learned and gained while using Kaboom:
